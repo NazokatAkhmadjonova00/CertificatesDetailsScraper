@@ -1,4 +1,4 @@
-﻿using OpenQA.Selenium;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Edge;
 using OpenQA.Selenium.Support.UI;
 using System;
@@ -170,145 +170,124 @@ namespace EudamedAutomation
                         var versionText = versionElement.Text;
                         Console.WriteLine("Version: " + versionText);
 
-                        
-
-
                         // Extract the Last Update Date
-                        var lastUpdateElement = wait.Until(d => d.FindElement(By.XPath("(//ul[@id='versionStatus']/li[contains(text(), 'Last update date:')])[1]")));
-                        var lastUpdateText = lastUpdateElement.Text.Replace("Last update date: ", "").Trim();
+                        var lastUpdateElement = wait.Until(d => d.FindElement(By.XPath("//li[contains(text(), 'Last update date:')]")));
+                        var lastUpdateText = lastUpdateElement.Text.Replace("Last update dat')e: ", "").Trim();
                         Console.WriteLine("Last Update Date: " + lastUpdateText);
 
-                        // Extract the Actor/Organisation name
-                        var actorNameElement = wait.Until(d => d.FindElement(By.XPath("(//dt[text()='Actor/Organisation name']/following-sibling::dd/div)[1]")));
-                        var actorNameText = actorNameElement.Text;
-                        Console.WriteLine("Actor/Organisation Name: " + actorNameText);
+                        // Extract the Notified Body ID
+                        var notifiedBodyID_element = wait.Until(d => d.FindElement(By.XPath("//dl[@class='row ng-star-inserted']//dt[contains(text(), 'Notified Body ID')]/following-sibling::dd/div")));
+                        var notifiedBodyID_text = notifiedBodyID_element.Text;
+                        Console.WriteLine("Notified Body ID: " + notifiedBodyID_text);
 
-                        // Extract the Actor ID/SRN
-                        var actorIdElement = wait.Until(d => d.FindElement(By.XPath("//dt[text()='Actor ID/SRN']/following-sibling::dd/div")));
-                        var actorIdText = actorIdElement.Text.Trim();
-                        Console.WriteLine("Actor ID/SRN: " + actorIdText);
+                        // Extract the Notified Body Name 
+                        var notifiedBodyName_element = wait.Until(d => d.FindElement(By.XPath("//dt[contains(text(), 'Notified Body name')]/following-sibling::dd/div")));
+                        var notifiedBodyName_text = notifiedBodyName_element.Text.Trim();
+                        Console.WriteLine("Notified Body Name : " + notifiedBodyName_text);
 
-                        // Extract the Address
-                        var addressElement = wait.Until(d => d.FindElement(By.XPath("//dt[text()='Address']/following-sibling::dd/div")));
-                        var addressText = addressElement.Text.Trim();
-                        Console.WriteLine("Address: " + addressText);
+                        // Extract the Notified Body Country
+                        var notifiedBodyCountry_element = wait.Until(d => d.FindElement(By.XPath("//dt[contains(text(), 'Notified Body country')]/following-sibling::dd/div")));
+                        var notifiedBodyCountry_text = notifiedBodyCountry_element.Text.Trim();
+                        Console.WriteLine("Notified Body Country : " + notifiedBodyCountry_text);
 
-                        // Extract the Country
-                        var countryElement = wait.Until(d => d.FindElement(By.XPath("//dt[text()='Country']/following-sibling::dd/div")));
-                        var countryText = countryElement.Text.Trim();
+                        // Manufacturer identification 
+                        var manufacturerId_element = wait.Until(d => d.FindElement(By.XPath("//dt[contains(text(), 'Manufacturer identification')]/following-sibling::dd")));
+                        var manufacturerId_text = manufacturerId_element.Text.Trim();
+                        Console.WriteLine("Manufacturer identification: " + manufacturerId_text);
+
+                        // Manufacturer organisation name
+                        var manufacturerOrgName_element = wait.Until(d => d.FindElement(By.XPath("//dt[contains(text(), 'Manufacturer organisation name')]/following-sibling::dd/div")));
+                        var manufacturerOrgName_text = manufacturerOrgName_element.Text.Trim();
+                        Console.WriteLine("Manufacturer organisation name: " + manufacturerOrgName_text);
+
+                        // Manufacturer address
+                        var manufacturerAddress_element = wait.Until(d => d.FindElement(By.XPath("//dl[@class='row ng-star-inserted']//dt[contains(text(), 'Manufacturer address')]/following-sibling::dd/div")));
+                        var manufacturerAddress_text = manufacturerAddress_element.Text.Trim();
+                        Console.WriteLine("Manufacturer Address: " + manufacturerAddress_text);
+
+                        // Extract the Coutry
+                        var country_element = wait.Until(d => d.FindElement(By.XPath("//dl[@class='row ng-star-inserted']//dt[contains(text(), 'Country')]/following-sibling::dd/div")));
+                        var countryText = country_element.Text.Trim();
                         Console.WriteLine("Country: " + countryText);
 
-                        // Extract the Telephone number
-                        var telephoneElement = wait.Until(d => d.FindElement(By.XPath("//dt[text()='Telephone number']/following-sibling::dd/div")));
-                        var telephoneText = telephoneElement.Text.Trim();
-                        Console.WriteLine("Telephone Number: " + telephoneText);
-
-                        // Extract the Email
-                        var emailElement = wait.Until(d => d.FindElement(By.XPath("//dt[text()='Email']/following-sibling::dd/div")));
-                        var emailText = emailElement.Text.Trim();
-                        Console.WriteLine("Email: " + emailText);
                         //
                         ////Basic UDI-DI details
                         //
-                        var wait2 = new WebDriverWait(driver, TimeSpan.FromSeconds(120));
+                        // Applicable legislation
+
+                        string applicableLegislation_element = "//dl[@class='row ng-star-inserted']//dt[contains(text(), 'Applicable legislation')]/following-sibling::dd/div";
+                        string applicableLegislation_text = "";
+
+                        try
+                        {
+                            applicableLegislation_text = driver.FindElement(By.XPath(applicableLegislation_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, leave Applicable legislation as empty
+                            Console.WriteLine("Applicable legislation not found. Leaving it empty.");
+                        }
+
+                        Console.WriteLine("Applicable legislation: " + applicableLegislation_text);
+
                         //
-                        // Extract Version
-
-                        string versionXpath2 = "(//ul[@id='versionStatus']/li/strong)[2]";
-                        string versionText2 = "";
-
-                        try
-                        {
-                            versionText2 = driver.FindElement(By.XPath(versionXpath2)).Text;
-                        }
-                        catch (NoSuchElementException)
-                        {
-                            // If the element is not found, leave versionText4 as empty
-                            Console.WriteLine("Version 2 not found. Leaving it empty.");
-                        }
-
-                        Console.WriteLine("Version: " + versionText2);
-
-                        // Extract Last Update Date
-                        var lastUpdateElement2 = wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("(//ul[@id='versionStatus']/li[contains(text(), 'Last update date:')])[2]")));
-                        var lastUpdateText2 = lastUpdateElement.Text.Replace("Last update date: ", "").Trim();
-                        Console.WriteLine("Last Update Date: " + lastUpdateText2);
-
-                        // Extract Applicable Legislation
-
-                        var legislationElement = wait.Until(d => d.FindElement(By.XPath("//dt[contains(text(), 'Applicable legislation')]/following-sibling::dd/div")));
-                        var applicableLegislation = legislationElement.Text;
-                        Console.WriteLine("Applicable Legislation: " + applicableLegislation);
-
-                        // Extract Basic UDI-DI/EUDAMED DI / Issuing Entity
-
-                        //var udiElement_basic = wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//dt[contains(text(), 'Basic UDI-DI/EUDAMED DI / Issuing entity')]/following-sibling::dd/div")));
-                        //var udiText_basic = udiElement_basic.Text.Trim();
-                        //Console.WriteLine("Basic UDI-DI/EUDAMED DI / Issuing Entity: " + udiText_basic);
-
-                        string udiElement_basic = "//dt[contains(text(), 'UDI-DI/EUDAMED')]/following-sibling::dd/div";
-                        string udiText_basic = "";
-
-                        try
-                        {
-                            udiText_basic = driver.FindElement(By.XPath(udiElement_basic)).Text;
-                        }
-                        catch (NoSuchElementException)
-                        {
-                            // If the element is not found, leave versionText4 as empty
-                            Console.WriteLine("Basic UDI-DI/EUDAMED DI / Issuing Entity not found. Leaving it empty.");
-                        }
-
-                        Console.WriteLine("Basic UDI-DI/EUDAMED DI / Issuing Entity: " + udiText_basic);
-
-                        //// Extract System/Procedure
+                        //// Extract Certificate Type
                         //
-                        string systemProcedureElement = "//dt[contains(text(), 'System')]/following-sibling::dd/div";
-                        string systemProcedure = "";
+                        string typeElement = "//dl[@class='row ng-star-inserted']//dt[contains(text(), 'Certificate type')]/following-sibling::dd/div";
+                        string certificateType = "";
 
                         try
                         {
-                            systemProcedure = driver.FindElement(By.XPath(systemProcedureElement)).Text;
+                            certificateType = driver.FindElement(By.XPath(typeElement)).Text;
                         }
                         catch (NoSuchElementException)
                         {
                             // If the element is not found, leave versionText4 as empty
-                            Console.WriteLine("System/Procedure which is a device in itself not found. Leaving it empty.");
+                            Console.WriteLine("Certificate Type is not found. Leaving it empty.");
                         }
-                        Console.WriteLine("System/Procedure which is a device in itself: " + systemProcedure);
+                        Console.WriteLine("Certificate Type: " + certificateType);
+
+
                         //
-                        //// Extract Authorised Representative
+                        //// Extract Certificate identifier
                         //
-                        string authorisedRepElement = "//dt[contains(text(), 'Authorised representative')]/following-sibling::dd/div";
-                        string authorisedRep = "";
+                        string certificateID_element = "//dl[@class='row ng-star-inserted']//dt[contains(text(), 'Certificate identifier')]/following-sibling::dd/div";
+                        string certificateID_text = "";
 
                         try
                         {
-                            authorisedRep = driver.FindElement(By.XPath(authorisedRepElement)).Text;
+                            certificateID_text = driver.FindElement(By.XPath(certificateID_element)).Text;
                         }
                         catch (NoSuchElementException)
                         {
                             // If the element is not found, leave versionText4 as empty
-                            Console.WriteLine("Authorised representative not found. Leaving it empty.");
+                            Console.WriteLine("Certificate identifier not found. Leaving it empty.");
                         }
 
-                        Console.WriteLine("Authorised representative: " + authorisedRep);
+                        Console.WriteLine("Certificate identifier: " + certificateID_text);
 
 
-                        //// Extract Risk Class
-                        string riskClassElement = "//dt[contains(text(), 'Risk class')]/following-sibling::dd/div";
-                        string riskClass = "";
+                        //// Extract Status
+                        string status_element = "//dl[@class='row ng-star-inserted']//dt[contains(text(), 'Status')]/following-sibling::dd/div";
+                        string status_text = "";
                         try
                         {
-                            riskClass = driver.FindElement(By.XPath(riskClassElement)).Text;
+                            status_text = driver.FindElement(By.XPath(status_element)).Text;
                         }
                         catch (NoSuchElementException)
                         {
                             // If the element is not found, leave versionText4 as empty
-                            Console.WriteLine("Implantable not found. Leaving it empty.");
+                            Console.WriteLine("Status not found. Leaving it empty.");
                         }
 
-                        Console.WriteLine("Risk Class: " + riskClass);
+                        Console.WriteLine("Status: " + status_text);
+
+
+
+
+
+
+
 
                         //// Extract Implantable
 
@@ -804,25 +783,25 @@ namespace EudamedAutomation
 
 
                         //// Save extracted data to Excel
-                        Console.WriteLine($"Saving data for UDI-DI: {udiDi}...");
+                        Console.WriteLine($"Saving data for certificate");
 
-                        worksheet.Cell(excelRowIndex, 2).Value = versionText;
-                        worksheet.Cell(excelRowIndex, 3).Value = lastUpdateText;
-                        worksheet.Cell(excelRowIndex, 4).Value = actorNameText;
-                        worksheet.Cell(excelRowIndex, 5).Value = actorIdText;
-                        worksheet.Cell(excelRowIndex, 6).Value = addressText;
-                        worksheet.Cell(excelRowIndex, 7).Value = countryText;
-                        worksheet.Cell(excelRowIndex, 8).Value = telephoneText;
-                        worksheet.Cell(excelRowIndex, 9).Value = emailText;
+                        worksheet.Cell(excelRowIndex, 1).Value = versionText;
+                        worksheet.Cell(excelRowIndex, 2).Value = lastUpdateText;
+                        worksheet.Cell(excelRowIndex, 3).Value = notifiedBodyID_text;
+                        //worksheet.Cell(excelRowIndex, 5).Value = actorIdText;
+                        //worksheet.Cell(excelRowIndex, 6).Value = addressText;
+                        //worksheet.Cell(excelRowIndex, 7).Value = countryText;
+                        //worksheet.Cell(excelRowIndex, 8).Value = telephoneText;
+                        //worksheet.Cell(excelRowIndex, 9).Value = emailText;
                         //
                         ////Basic UDI-DI
                         //
-                        worksheet.Cell(excelRowIndex, 10).Value = versionText2;
-                        worksheet.Cell(excelRowIndex, 11).Value = lastUpdateText2;
-                        worksheet.Cell(excelRowIndex, 12).Value = applicableLegislation;
-                        worksheet.Cell(excelRowIndex, 13).Value = udiText_basic;
-                        worksheet.Cell(excelRowIndex, 14).Value = systemProcedure;
-                        worksheet.Cell(excelRowIndex, 15).Value = authorisedRep;
+                        //worksheet.Cell(excelRowIndex, 10).Value = versionText2;
+                        //worksheet.Cell(excelRowIndex, 11).Value = lastUpdateText2;
+                        //worksheet.Cell(excelRowIndex, 12).Value = applicableLegislation;
+                        //worksheet.Cell(excelRowIndex, 13).Value = udiText_basic;
+                        //worksheet.Cell(excelRowIndex, 14).Value = systemProcedure;
+                        //worksheet.Cell(excelRowIndex, 15).Value = authorisedRep;
                         worksheet.Cell(excelRowIndex, 16).Value = riskClass;
                         worksheet.Cell(excelRowIndex, 17).Value = implantable;
                         worksheet.Cell(excelRowIndex, 18).Value = sutureDevice;
@@ -844,16 +823,16 @@ namespace EudamedAutomation
                         //
                         ////UDI-DI details
                         //
-                        worksheet.Cell(excelRowIndex, 28).Value = versionText3;
-                        worksheet.Cell(excelRowIndex, 29).Value = lastUpdateText3;
-                        worksheet.Cell(excelRowIndex, 30).Value = udiDi;
-                        worksheet.Cell(excelRowIndex, 31).Value = status;
-                        worksheet.Cell(excelRowIndex, 32).Value = secondaryUdi;
-                        worksheet.Cell(excelRowIndex, 33).Value = nomenclatureCode;
-                        worksheet.Cell(excelRowIndex, 34).Value = tradeName;
-                        worksheet.Cell(excelRowIndex, 35).Value = catalogueNumber;
-                        worksheet.Cell(excelRowIndex, 36).Value = directMarking;
-                        worksheet.Cell(excelRowIndex, 37).Value = quantity;
+                        //worksheet.Cell(excelRowIndex, 28).Value = versionText3;
+                        //worksheet.Cell(excelRowIndex, 29).Value = lastUpdateText3;
+                        //worksheet.Cell(excelRowIndex, 30).Value = udiDi;
+                        //worksheet.Cell(excelRowIndex, 31).Value = status;
+                        //worksheet.Cell(excelRowIndex, 32).Value = secondaryUdi;
+                        //worksheet.Cell(excelRowIndex, 33).Value = nomenclatureCode;
+                        //worksheet.Cell(excelRowIndex, 34).Value = tradeName;
+                        //worksheet.Cell(excelRowIndex, 35).Value = catalogueNumber;
+                        //worksheet.Cell(excelRowIndex, 36).Value = directMarking;
+                        //worksheet.Cell(excelRowIndex, 37).Value = quantity;
                         worksheet.Cell(excelRowIndex, 38).Value = udiPi;
                         worksheet.Cell(excelRowIndex, 39).Value = additionalDescription;
                         worksheet.Cell(excelRowIndex, 40).Value = infoUrl;
