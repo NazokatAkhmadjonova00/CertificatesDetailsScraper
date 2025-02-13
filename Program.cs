@@ -1,4 +1,4 @@
- using OpenQA.Selenium;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using System;
 using System.Collections.Generic;
@@ -124,10 +124,63 @@ namespace EudamedAutomation
                 worksheet.Cell(1, 25).Value = "Basic UDI-DI ";
                 worksheet.Cell(1, 26).Value = "Custom made class iii implantable";
                 worksheet.Cell(1, 27).Value = "Risk class";
+
+                worksheet.Cell(1, 28).Value = "Basic UDI-DI ";
+                worksheet.Cell(1, 29).Value = "Custom made class iii implantable";
+                worksheet.Cell(1, 30).Value = "Risk class";
+
+                worksheet.Cell(1, 31).Value = "Basic UDI-DI ";
+                worksheet.Cell(1, 32).Value = "Custom made class iii implantable";
+                worksheet.Cell(1, 33).Value = "Risk class";
+
+                worksheet.Cell(1, 34).Value = "Basic UDI-DI ";
+                worksheet.Cell(1, 35).Value = "Custom made class iii implantable";
+                worksheet.Cell(1, 36).Value = "Risk class";
+
+                worksheet.Cell(1, 37).Value = "Basic UDI-DI ";
+                worksheet.Cell(1, 38).Value = "Custom made class iii implantable";
+                worksheet.Cell(1, 39).Value = "Risk class";
+
+                worksheet.Cell(1, 40).Value = "Basic UDI-DI ";
+                worksheet.Cell(1, 41).Value = "Custom made class iii implantable";
+                worksheet.Cell(1, 42).Value = "Risk class";
+
+                worksheet.Cell(1, 43).Value = "Basic UDI-DI ";
+                worksheet.Cell(1, 44).Value = "Custom made class iii implantable";
+                worksheet.Cell(1, 45).Value = "Risk class";
+
+                worksheet.Cell(1, 46).Value = "Basic UDI-DI ";
+                worksheet.Cell(1, 47).Value = "Custom made class iii implantable";
+                worksheet.Cell(1, 48).Value = "Risk class";
+
+                worksheet.Cell(1, 49).Value = "Basic UDI-DI ";
+                worksheet.Cell(1, 50).Value = "Custom made class iii implantable";
+                worksheet.Cell(1, 51).Value = "Risk class";
+
+                worksheet.Cell(1, 52).Value = "Basic UDI-DI ";
+                worksheet.Cell(1, 53).Value = "Custom made class iii implantable";
+                worksheet.Cell(1, 54).Value = "Risk class";
+
                 //Devices groups 
-                worksheet.Cell(1, 28).Value = "Device group identification";
-                worksheet.Cell(1, 29).Value = "Risk classes";
-          
+                worksheet.Cell(1, 55).Value = "Device group identification";
+                worksheet.Cell(1, 56).Value = "Risk classes";
+                worksheet.Cell(1, 57).Value = "Characteristic(s) of class I devices";
+
+                worksheet.Cell(1, 58).Value = "Device group identification";
+                worksheet.Cell(1, 59).Value = "Risk classes";
+                worksheet.Cell(1, 60).Value = "Characteristic(s) of class I devices";
+
+                worksheet.Cell(1, 61).Value = "Device group identification";
+                worksheet.Cell(1, 62).Value = "Risk classes";
+                worksheet.Cell(1, 63).Value = "Characteristic(s) of class I devices";
+
+                worksheet.Cell(1, 64).Value = "Device group identification";
+                worksheet.Cell(1, 65).Value = "Risk classes";
+                worksheet.Cell(1, 66).Value = "Characteristic(s) of class I devices";
+
+                worksheet.Cell(1, 67).Value = "Device group identification";
+                worksheet.Cell(1, 68).Value = "Risk classes";
+                worksheet.Cell(1, 69).Value = "Characteristic(s) of class I devices";
 
                 //int rowNum = 2;
 
@@ -161,7 +214,7 @@ namespace EudamedAutomation
                         var accordionElements = wait.Until(d => d.FindElements(By.XPath("//div[@class='mb-5']")));
                         Console.WriteLine("Details has loaded.");
                         //
-                        
+
                         // Extract the Version
                         //
 
@@ -337,10 +390,6 @@ namespace EudamedAutomation
                         Console.WriteLine("Date of expiry: " + expiryDate_text);
 
 
-
-
-
-
                         //
                         //// Certificate details
                         //
@@ -363,7 +412,7 @@ namespace EudamedAutomation
                         //
                         //// Extract the Certificate documents
                         //
-                        string certificateDocs_element= "//dt[contains(text(), 'Certificate documents')]/following-sibling::dd//ul[@class='list-group']/li[position()]/a";
+                        string certificateDocs_element = "//dt[contains(text(), 'Certificate documents')]/following-sibling::dd//ul[@class='list-group']/li[position()]/a";
                         string certificateDocs_text = "";
 
                         try
@@ -403,7 +452,7 @@ namespace EudamedAutomation
                         //
                         ////Device incorporating as an integral part an in vitro diagnostic device (valid only for MDR certs)
                         //
-                        string  DIIP_element= "//dl[@class='row ng-star-inserted']//dt[contains(text(), 'Devices incorporating as an integral part an in vitro diagnostic device')]/following-sibling::dd/div";
+                        string DIIP_element = "//dl[@class='row ng-star-inserted']//dt[contains(text(), 'Devices incorporating as an integral part an in vitro diagnostic device')]/following-sibling::dd/div";
                         string DIIP_text = "";
 
                         try
@@ -421,7 +470,7 @@ namespace EudamedAutomation
                         //
                         ////Device manufactured utilising tissues or cells of animal origin, or their derivatives 
                         //
-                        string  TCAO_element= "//dl[@class='row ng-star-inserted']//dt[contains(text(), 'Devices manufactured utilising tissues or cells of animal origin')]/following-sibling::dd/div";
+                        string TCAO_element = "//dl[@class='row ng-star-inserted']//dt[contains(text(), 'Devices manufactured utilising tissues or cells of animal origin')]/following-sibling::dd/div";
                         string TCAO_text = "";
 
                         try
@@ -439,7 +488,7 @@ namespace EudamedAutomation
                         //
                         ////Device manufactured utilising tissues or cells of human origin, or their derivates
                         //
-                        string DMTC_element = "//dl[@class='row ng-star-inserted']//dt[contains(text(), 'Devices manufactured utilising tissues or cells of animal origin')]/following-sibling::dd/div";
+                        string DMTC_element = "//dl[@class='row ng-star-inserted']//dt[contains(text(), 'Devices manufactured utilising tissues or cells of human origin')]/following-sibling::dd/div";
                         string DMTC_text = "";
 
                         try
@@ -450,10 +499,10 @@ namespace EudamedAutomation
                         {
                             // If the element is not found, 
                             // as empty
-                            Console.WriteLine("Device manufacture utilising tissues or cells of animal origin, or their derivatives ");
+                            Console.WriteLine("Device manufacture utilising tissues or cells of human origin, or their derivatives ");
                         }
 
-                        Console.WriteLine("Device manufacture utilising tissues or cells of animal origin, or their derivatives : " + DMTC_text);
+                        Console.WriteLine("Device manufacture utilising tissues or cells of human origin, or their derivatives : " + DMTC_text);
 
                         //
                         ////Device without an intended medical purpose listed in Annex xvi to Regulation (EU) 2017/745
@@ -473,8 +522,7 @@ namespace EudamedAutomation
 
                         Console.WriteLine("Device without an intended medical purpose listed in Annex xvi to Regulation (EU) 2017/745 : " + noMedPurpose_text);
 
-                        //// Save extracted data to Excel
-                        Console.WriteLine($"Saving data for certificate");
+                        
 
                         //
                         ////Conditions or limitations
@@ -488,13 +536,821 @@ namespace EudamedAutomation
                         catch (NoSuchElementException)
                         {
                             // If the element is not found, as empty
-                            Console.WriteLine("Device without an intended medical purpose listed in Annex xvi to Regulation (EU) 2017/745 ");
+                            Console.WriteLine("Conditions or limitations not found ");
                         }
 
-                        Console.WriteLine("Device without an intended medical purpose listed in Annex xvi to Regulation (EU) 2017/745 : " + ConLim_text);
+                        Console.WriteLine("Conditions or limitations: " + ConLim_text);
 
                         //// Save extracted data to Excel
                         Console.WriteLine($"Saving data for certificate");
+
+                        //Devices
+                        //Device I
+                        ////Custom made class III implantable
+                        string cliiiImplantable_element = "(//dt[contains(text(), 'Custom made class III implantable')]/following-sibling::dd/div[text()='No'])[1]";
+                        string cliiiImplantable_text = "";
+
+                        try
+                        {
+                            cliiiImplantable_text = driver.FindElement(By.XPath(cliiiImplantable_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Custom made class III implantable not found ");
+                        }
+
+                        Console.WriteLine("Custom made class III implantable: " + cliiiImplantable_text);
+
+                        ////Risk Class 
+                        string riskClass_element = "(//dt[contains(text(), 'Risk class')]/following-sibling::dd/div)[1]";
+                        string riskClass_text = "";
+
+                        try
+                        {
+                            riskClass_text = driver.FindElement(By.XPath(riskClass_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Risk class not found ");
+                        }
+
+                        Console.WriteLine("Risk class: " + riskClass_text);
+
+                        ////Name
+                        string name_element = "(//dt[contains(text(), 'Name')]/following-sibling::dd/div)[1]";
+                        string name_text = "";
+
+                        try
+                        {
+                            name_text = driver.FindElement(By.XPath(name_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Name not found ");
+                        }
+
+                        Console.WriteLine("Name class: " + name_text);
+
+                        //Device II
+                        ////Custom made class III implantable
+                        string cliiiImplantable2_element = "(//dt[contains(text(), 'Custom made class III implantable')]/following-sibling::dd/div[text()='No'])[2]";
+                        string cliiiImplantable2_text = "";
+
+                        try
+                        {
+                            cliiiImplantable2_text = driver.FindElement(By.XPath(cliiiImplantable2_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Custom made class III implantable not found ");
+                        }
+
+                        Console.WriteLine("Custom made class III implantable: " + cliiiImplantable2_text);
+
+                        ////Risk Class 
+                        string riskClass2_element = "(//dt[contains(text(), 'Risk class')]/following-sibling::dd/div)[2]";
+                        string riskClass2_text = "";
+
+                        try
+                        {
+                            riskClass2_text = driver.FindElement(By.XPath(riskClass2_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Risk class not found ");
+                        }
+
+                        Console.WriteLine("Risk class: " + riskClass2_text);
+
+
+                        ////Name
+                        string name2_element = "(//dt[contains(text(), 'Name')]/following-sibling::dd/div)[2]";
+                        string name2_text = "";
+
+                        try
+                        {
+                            name2_text = driver.FindElement(By.XPath(name2_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Name not found ");
+                        }
+
+                        Console.WriteLine("Name class: " + name2_text);
+
+
+
+                        //Device III
+                        ////Custom made class III implantable
+                        string cliiiImplantable3_element = "(//dt[contains(text(), 'Custom made class III implantable')]/following-sibling::dd/div[text()='No'])[3]";
+                        string cliiiImplantable3_text = "";
+
+                        try
+                        {
+                            cliiiImplantable3_text = driver.FindElement(By.XPath(cliiiImplantable3_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Custom made class III implantable not found ");
+                        }
+
+                        Console.WriteLine("Custom made class III implantable: " + cliiiImplantable3_text);
+
+
+                        ////Risk Class 
+                        string riskClass3_element = "(//dt[contains(text(), 'Risk class')]/following-sibling::dd/div)[3]";
+                        string riskClass3_text = "";
+
+                        try
+                        {
+                            riskClass3_text = driver.FindElement(By.XPath(riskClass3_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Risk class not found ");
+                        }
+
+                        Console.WriteLine("Risk class: " + riskClass3_text);
+
+
+                        ////Name
+                        string name3_element = "(//dt[contains(text(), 'Name')]/following-sibling::dd/div)[3]";
+                        string name3_text = "";
+
+                        try
+                        {
+                            name3_text = driver.FindElement(By.XPath(name3_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Name not found ");
+                        }
+
+                        Console.WriteLine("Name class: " + name3_text);
+
+
+                        //Device IV
+                        ////Custom made class III implantable
+                        string cliiiImplantable4_element = "(//dt[contains(text(), 'Custom made class III implantable')]/following-sibling::dd/div[text()='No'])[4]";
+                        string cliiiImplantable4_text = "";
+
+                        try
+                        {
+                            cliiiImplantable4_text = driver.FindElement(By.XPath(cliiiImplantable4_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Custom made class III implantable not found ");
+                        }
+
+                        Console.WriteLine("Custom made class III implantable: " + cliiiImplantable4_text);
+
+
+                        ////Risk Class 
+                        string riskClass4_element = "(//dt[contains(text(), 'Risk class')]/following-sibling::dd/div)[4]";
+                        string riskClass4_text = "";
+
+                        try
+                        {
+                            riskClass4_text = driver.FindElement(By.XPath(riskClass4_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Risk class not found ");
+                        }
+
+                        Console.WriteLine("Risk class: " + riskClass4_text);
+
+
+                        ////Name
+                        string name4_element = "(//dt[contains(text(), 'Name')]/following-sibling::dd/div)[4]";
+                        string name4_text = "";
+
+                        try
+                        {
+                            name4_text = driver.FindElement(By.XPath(name4_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Name not found ");
+                        }
+
+                        Console.WriteLine("Name class: " + name4_text);
+
+
+                        //Device V
+                        ////Custom made class III implantable
+                        string cliiiImplantable5_element = "(//dt[contains(text(), 'Custom made class III implantable')]/following-sibling::dd/div[text()='No'])[5]";
+                        string cliiiImplantable5_text = "";
+
+                        try
+                        {
+                            cliiiImplantable5_text = driver.FindElement(By.XPath(cliiiImplantable5_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Custom made class III implantable not found ");
+                        }
+
+                        Console.WriteLine("Custom made class III implantable: " + cliiiImplantable5_text);
+
+
+                        ////Risk Class 
+                        string riskClass5_element = "(//dt[contains(text(), 'Risk class')]/following-sibling::dd/div)[5]";
+                        string riskClass5_text = "";
+
+                        try
+                        {
+                            riskClass5_text = driver.FindElement(By.XPath(riskClass5_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Risk class not found ");
+                        }
+
+                        Console.WriteLine("Risk class: " + riskClass5_text);
+
+                        ////Name
+                        string name5_element = "(//dt[contains(text(), 'Name')]/following-sibling::dd/div)[5]";
+                        string name5_text = "";
+
+                        try
+                        {
+                            name5_text = driver.FindElement(By.XPath(name5_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Name not found ");
+                        }
+
+                        Console.WriteLine("Name class: " + name5_text);
+
+
+                        //Device VI
+                        ////Custom made class III implantable
+                        string cliiiImplantable6_element = "(//dt[contains(text(), 'Custom made class III implantable')]/following-sibling::dd/div[text()='No'])[6]";
+                        string cliiiImplantable6_text = "";
+
+                        try
+                        {
+                            cliiiImplantable6_text = driver.FindElement(By.XPath(cliiiImplantable6_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Custom made class III implantable not found ");
+                        }
+
+                        Console.WriteLine("Custom made class III implantable: " + cliiiImplantable6_text);
+
+
+                        ////Risk Class 
+                        string riskClass6_element = "(//dt[contains(text(), 'Risk class')]/following-sibling::dd/div)[6]";
+                        string riskClass6_text = "";
+
+                        try
+                        {
+                            riskClass6_text = driver.FindElement(By.XPath(riskClass6_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Risk class not found ");
+                        }
+
+                        Console.WriteLine("Risk class: " + riskClass6_text);
+
+
+                        ////Name
+                        string name6_element = "(//dt[contains(text(), 'Name')]/following-sibling::dd/div)[6]";
+                        string name6_text = "";
+
+                        try
+                        {
+                            name6_text = driver.FindElement(By.XPath(name6_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Name not found ");
+                        }
+
+                        Console.WriteLine("Name class: " + name6_text);
+
+
+                        //Device VII
+                        ////Custom made class III implantable
+                        string cliiiImplantable7_element = "(//dt[contains(text(), 'Custom made class III implantable')]/following-sibling::dd/div[text()='No'])[7]";
+                        string cliiiImplantable7_text = "";
+
+                        try
+                        {
+                            cliiiImplantable7_text = driver.FindElement(By.XPath(cliiiImplantable7_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Custom made class III implantable not found ");
+                        }
+
+                        Console.WriteLine("Custom made class III implantable: " + cliiiImplantable7_text);
+
+
+
+                        ////Risk Class 
+                        string riskClass7_element = "(//dt[contains(text(), 'Risk class')]/following-sibling::dd/div)[7]";
+                        string riskClass7_text = "";
+
+                        try
+                        {
+                            riskClass6_text = driver.FindElement(By.XPath(riskClass7_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Risk class not found ");
+                        }
+
+                        Console.WriteLine("Risk class: " + riskClass7_text);
+
+                        ////Name
+                        string name7_element = "(//dt[contains(text(), 'Name')]/following-sibling::dd/div)[7]";
+                        string name7_text = "";
+
+                        try
+                        {
+                            name7_text = driver.FindElement(By.XPath(name7_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Name not found ");
+                        }
+
+                        Console.WriteLine("Name class: " + name7_text);
+
+                        //Device VIII
+                        ////Custom made class III implantable
+                        string cliiiImplantable8_element = "(//dt[contains(text(), 'Custom made class III implantable')]/following-sibling::dd/div[text()='No'])[8]";
+                        string cliiiImplantable8_text = "";
+
+                        try
+                        {
+                            cliiiImplantable8_text = driver.FindElement(By.XPath(cliiiImplantable8_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Custom made class III implantable not found ");
+                        }
+
+                        Console.WriteLine("Custom made class III implantable: " + cliiiImplantable8_text);
+
+
+
+                        ////Risk Class 
+                        string riskClass8_element = "(//dt[contains(text(), 'Risk class')]/following-sibling::dd/div)[8]";
+                        string riskClass8_text = "";
+
+                        try
+                        {
+                            riskClass8_text = driver.FindElement(By.XPath(riskClass8_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Risk class not found ");
+                        }
+
+                        Console.WriteLine("Risk class: " + riskClass8_text);
+
+
+                        ////Name
+                        string name8_element = "(//dt[contains(text(), 'Name')]/following-sibling::dd/div)[8]";
+                        string name8_text = "";
+
+                        try
+                        {
+                            name8_text = driver.FindElement(By.XPath(name8_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Name not found ");
+                        }
+
+                        Console.WriteLine("Name class: " + name8_text);
+
+
+                        //Device IX
+                        ////Custom made class III implantable
+                        string cliiiImplantable9_element = "(//dt[contains(text(), 'Custom made class III implantable')]/following-sibling::dd/div[text()='No'])[9]";
+                        string cliiiImplantable9_text = "";
+
+                        try
+                        {
+                            cliiiImplantable9_text = driver.FindElement(By.XPath(cliiiImplantable9_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Custom made class III implantable not found ");
+                        }
+
+                        Console.WriteLine("Custom made class III implantable: " + cliiiImplantable9_text);
+
+
+
+                        ////Risk Class 
+                        string riskClass9_element = "(//dt[contains(text(), 'Risk class')]/following-sibling::dd/div)[9]";
+                        string riskClass9_text = "";
+
+                        try
+                        {
+                            riskClass9_text = driver.FindElement(By.XPath(riskClass9_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Risk class not found ");
+                        }
+
+                        Console.WriteLine("Risk class: " + riskClass9_text);
+
+
+                        ////Name
+                        string name9_element = "(//dt[contains(text(), 'Name')]/following-sibling::dd/div)[9]";
+                        string name9_text = "";
+
+                        try
+                        {
+                            name9_text = driver.FindElement(By.XPath(name9_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Name not found ");
+                        }
+
+                        Console.WriteLine("Name class: " + name9_text);
+
+
+
+                        //Device X
+                        ////Custom made class III implantable
+                        string cliiiImplantable10_element = "(//dt[contains(text(), 'Custom made class III implantable')]/following-sibling::dd/div[text()='No'])[10]";
+                        string cliiiImplantable10_text = "";
+
+                        try
+                        {
+                            cliiiImplantable10_text = driver.FindElement(By.XPath(cliiiImplantable10_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Custom made class III implantable not found ");
+                        }
+
+                        Console.WriteLine("Custom made class III implantable: " + cliiiImplantable10_text);
+
+
+                     
+
+                        ////Risk Class 
+                        string riskClass10_element = "(//dt[contains(text(), 'Risk class')]/following-sibling::dd/div)[10]";
+                        string riskClass10_text = "";
+
+                        try
+                        {
+                            riskClass10_text = driver.FindElement(By.XPath(riskClass10_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Risk class not found ");
+                        }
+
+                        Console.WriteLine("Risk class: " + riskClass10_text);
+
+
+                        ////Name
+                        string name10_element = "(//dt[contains(text(), 'Name')]/following-sibling::dd/div)[10]";
+                        string name10_text = "";
+
+                        try
+                        {
+                            name10_text = driver.FindElement(By.XPath(name10_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Name not found ");
+                        }
+
+                        Console.WriteLine("Name class: " + name10_text);
+
+
+
+                        // Device groups
+                        // Group I
+
+                        ////Device group identification
+                        string deviceGroupID_element = "(//dt[contains(text(), 'Device group identification')]/following-sibling::dd/div)[1]";
+                        string deviceGroupID_text = "";
+
+                        try
+                        {
+                            deviceGroupID_text = driver.FindElement(By.XPath(deviceGroupID_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Device group identification not found ");
+                        }
+
+                        Console.WriteLine("Device group identification: " + deviceGroupID_text);
+
+
+
+
+                        ////Risk Classes 
+                        string riskClasses_element = "(//dt[contains(text(), 'Risk classes')]/following-sibling::dd/div)[1]";
+                        string riskClasses_text = "";
+
+                        try
+                        {
+                            riskClasses_text = driver.FindElement(By.XPath(riskClasses_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Risk classes not found ");
+                        }
+
+                        Console.WriteLine("Risk classes: " + riskClasses_text);
+
+
+                        ////Name
+                        string charClassI_element = "(//dt[contains(text(), 'Characteristic(s) of class I devices')]/following-sibling::dd//li)[1]";
+                        string charClassI_text = "";
+
+                        try
+                        {
+                            charClassI_text = driver.FindElement(By.XPath(charClassI_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Characteristic(s) of class I devices not found ");
+                        }
+
+                        Console.WriteLine("Characteristic(s) of class I devices: " + charClassI_text);
+
+
+                        // Group II
+
+                        ////Device group identification
+                        string deviceGroupID2_element = "(//dt[contains(text(), 'Device group identification')]/following-sibling::dd/div)[2]";
+                        string deviceGroupID2_text = "";
+
+                        try
+                        {
+                            deviceGroupID2_text = driver.FindElement(By.XPath(deviceGroupID2_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Device group identification not found ");
+                        }
+
+                        Console.WriteLine("Device group identification: " + deviceGroupID2_text);
+
+
+
+
+                        ////Risk Classes 
+                        string riskClasses2_element = "(//dt[contains(text(), 'Risk classes')]/following-sibling::dd/div)[2]";
+                        string riskClasses2_text = "";
+
+                        try
+                        {
+                            riskClasses2_text = driver.FindElement(By.XPath(riskClasses2_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Risk classes not found ");
+                        }
+
+                        Console.WriteLine("Risk classes: " + riskClasses2_text);
+
+
+                        ////Name
+                        string charClassI2_element = "(//dt[contains(text(), 'Characteristic(s) of class I devices')]/following-sibling::dd//li)[2]";
+                        string charClassI2_text = "";
+
+                        try
+                        {
+                            charClassI2_text = driver.FindElement(By.XPath(charClassI2_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Characteristic(s) of class I devices not found ");
+                        }
+
+                        Console.WriteLine("Characteristic(s) of class I devices: " + charClassI2_text);
+
+
+                        // Group III
+
+                        ////Device group identification
+                        string deviceGroupID3_element = "(//dt[contains(text(), 'Device group identification')]/following-sibling::dd/div)[3]";
+                        string deviceGroupID3_text = "";
+
+                        try
+                        {
+                            deviceGroupID3_text = driver.FindElement(By.XPath(deviceGroupID3_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Device group identification not found ");
+                        }
+
+                        Console.WriteLine("Device group identification: " + deviceGroupID3_text);
+
+
+
+
+                        ////Risk Classes 
+                        string riskClasses3_element = "(//dt[contains(text(), 'Risk classes')]/following-sibling::dd/div)[3]";
+                        string riskClasses3_text = "";
+
+                        try
+                        {
+                            riskClasses3_text = driver.FindElement(By.XPath(riskClasses3_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Risk classes not found ");
+                        }
+
+                        Console.WriteLine("Risk classes: " + riskClasses3_text);
+
+
+                        ////Name
+                        string charClassI3_element = "(//dt[contains(text(), 'Characteristic(s) of class I devices')]/following-sibling::dd//li)[3]";
+                        string charClassI3_text = "";
+
+                        try
+                        {
+                            charClassI2_text = driver.FindElement(By.XPath(charClassI3_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Characteristic(s) of class I devices not found ");
+                        }
+
+                        Console.WriteLine("Characteristic(s) of class I devices: " + charClassI3_text);
+
+
+
+                        // Group IV
+
+                        ////Device group identification
+                        string deviceGroupID4_element = "(//dt[contains(text(), 'Device group identification')]/following-sibling::dd/div)[4]";
+                        string deviceGroupID4_text = "";
+
+                        try
+                        {
+                            deviceGroupID4_text = driver.FindElement(By.XPath(deviceGroupID4_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Device group identification not found ");
+                        }
+
+                        Console.WriteLine("Device group identification: " + deviceGroupID4_text);
+
+
+
+
+                        ////Risk Classes 
+                        string riskClasses4_element = "(//dt[contains(text(), 'Risk classes')]/following-sibling::dd/div)[4]";
+                        string riskClasses4_text = "";
+
+                        try
+                        {
+                            riskClasses4_text = driver.FindElement(By.XPath(riskClasses4_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Risk classes not found ");
+                        }
+
+                        Console.WriteLine("Risk classes: " + riskClasses4_text);
+
+
+                        ////Name
+                        string charClassI4_element = "(//dt[contains(text(), 'Characteristic(s) of class I devices')]/following-sibling::dd//li)[4]";
+                        string charClassI4_text = "";
+
+                        try
+                        {
+                            charClassI4_text = driver.FindElement(By.XPath(charClassI4_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Characteristic(s) of class I devices not found ");
+                        }
+
+                        Console.WriteLine("Characteristic(s) of class I devices: " + charClassI4_text);
+
+
+
+                        // Group V
+
+                        ////Device group identification
+                        string deviceGroupID5_element = "(//dt[contains(text(), 'Device group identification')]/following-sibling::dd/div)[5]";
+                        string deviceGroupID5_text = "";
+
+                        try
+                        {
+                            deviceGroupID5_text = driver.FindElement(By.XPath(deviceGroupID5_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Device group identification not found ");
+                        }
+
+                        Console.WriteLine("Device group identification: " + deviceGroupID5_text);
+
+
+
+
+                        ////Risk Classes 
+                        string riskClasses5_element = "(//dt[contains(text(), 'Risk classes')]/following-sibling::dd/div)[5]";
+                        string riskClasses5_text = "";
+
+                        try
+                        {
+                            riskClasses5_text = driver.FindElement(By.XPath(riskClasses5_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Risk classes not found ");
+                        }
+
+                        Console.WriteLine("Risk classes: " + riskClasses5_text);
+
+
+                        ////Name
+                        string charClassI5_element = "(//dt[contains(text(), 'Characteristic(s) of class I devices')]/following-sibling::dd//li)[5]";
+                        string charClassI5_text = "";
+
+                        try
+                        {
+                            charClassI5_text = driver.FindElement(By.XPath(charClassI5_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Characteristic(s) of class I devices not found ");
+                        }
+
+                        Console.WriteLine("Characteristic(s) of class I devices: " + charClassI5_text);
+
+
+
+
+
+                        //// Save extracted data to Excel
+                        Console.WriteLine($"Saving data for certificate");
+
+
 
 
 
@@ -522,13 +1378,68 @@ namespace EudamedAutomation
                         worksheet.Cell(excelRowIndex, 22).Value = DMTC_text;
                         worksheet.Cell(excelRowIndex, 23).Value = noMedPurpose_text;
                         worksheet.Cell(excelRowIndex, 24).Value = ConLim_text;
-                        //worksheet.Cell(excelRowIndex, 25).Value = presenceOfAnimalTissues;
-                        //
-                        ////Information on Substances
 
-                        //worksheet.Cell(excelRowIndex, 26).Value = presenceOfMedicinalProduct;
-                        //worksheet.Cell(excelRowIndex, 27).Value = presenceOfBloodPlasmaProduct;
+                        //Devices
+                        worksheet.Cell(excelRowIndex, 25).Value = cliiiImplantable_text;
+                        worksheet.Cell(excelRowIndex, 26).Value = riskClass_text;
+                        worksheet.Cell(excelRowIndex, 27).Value = name_text;
 
+                        worksheet.Cell(excelRowIndex, 28).Value = cliiiImplantable2_text;
+                        worksheet.Cell(excelRowIndex, 29).Value = riskClass2_text;
+                        worksheet.Cell(excelRowIndex, 30).Value = name2_text;
+
+                        worksheet.Cell(excelRowIndex, 31).Value = cliiiImplantable3_text;
+                        worksheet.Cell(excelRowIndex, 32).Value = riskClass3_text;
+                        worksheet.Cell(excelRowIndex, 33).Value = name3_text;
+
+                        worksheet.Cell(excelRowIndex, 34).Value = cliiiImplantable4_text;
+                        worksheet.Cell(excelRowIndex, 35).Value = riskClass4_text;
+                        worksheet.Cell(excelRowIndex, 36).Value = name4_text;
+
+                        worksheet.Cell(excelRowIndex, 37).Value = cliiiImplantable5_text;
+                        worksheet.Cell(excelRowIndex, 38).Value = riskClass5_text;
+                        worksheet.Cell(excelRowIndex, 39).Value = name5_text;
+
+                        worksheet.Cell(excelRowIndex, 40).Value = cliiiImplantable6_text;
+                        worksheet.Cell(excelRowIndex, 41).Value = riskClass6_text;
+                        worksheet.Cell(excelRowIndex, 42).Value = name6_text;
+
+                        worksheet.Cell(excelRowIndex, 43).Value = cliiiImplantable7_text;
+                        worksheet.Cell(excelRowIndex, 44).Value = riskClass7_text;
+                        worksheet.Cell(excelRowIndex, 45).Value = name7_text;
+
+                        worksheet.Cell(excelRowIndex, 46).Value = cliiiImplantable8_text;
+                        worksheet.Cell(excelRowIndex, 47).Value = riskClass8_text;
+                        worksheet.Cell(excelRowIndex, 48).Value = name8_text;
+
+                        worksheet.Cell(excelRowIndex, 49).Value = cliiiImplantable9_text;
+                        worksheet.Cell(excelRowIndex, 50).Value = riskClass9_text;
+                        worksheet.Cell(excelRowIndex, 51).Value = name9_text;
+
+                        worksheet.Cell(excelRowIndex, 52).Value = cliiiImplantable10_text;
+                        worksheet.Cell(excelRowIndex, 53).Value = riskClass10_text;
+                        worksheet.Cell(excelRowIndex, 54).Value = name10_text;
+
+                        //Device Groups
+                        worksheet.Cell(excelRowIndex, 55).Value = deviceGroupID_text;
+                        worksheet.Cell(excelRowIndex, 56).Value = riskClasses_text;
+                        worksheet.Cell(excelRowIndex, 57).Value = charClassI_text;
+
+                        worksheet.Cell(excelRowIndex, 58).Value = deviceGroupID2_text;
+                        worksheet.Cell(excelRowIndex, 59).Value = riskClasses2_text;
+                        worksheet.Cell(excelRowIndex, 60).Value = charClassI2_text;
+
+                        worksheet.Cell(excelRowIndex, 61).Value = deviceGroupID3_text;
+                        worksheet.Cell(excelRowIndex, 62).Value = riskClasses3_text;
+                        worksheet.Cell(excelRowIndex, 63).Value = charClassI3_text;
+
+                        worksheet.Cell(excelRowIndex, 64).Value = deviceGroupID4_text;
+                        worksheet.Cell(excelRowIndex, 65).Value = riskClasses4_text;
+                        worksheet.Cell(excelRowIndex, 66).Value = charClassI4_text;
+
+                        worksheet.Cell(excelRowIndex, 67).Value = deviceGroupID5_text;
+                        worksheet.Cell(excelRowIndex, 68).Value = riskClasses5_text;
+                        worksheet.Cell(excelRowIndex, 69).Value = charClassI5_text;
 
 
                         Console.WriteLine($"*****************************************************************Datasaved in row {excelRowIndex}");
