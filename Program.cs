@@ -1,5 +1,4 @@
-using OpenQA.Selenium;
-using OpenQA.Selenium.Edge;
+ using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using System;
 using System.Collections.Generic;
@@ -497,6 +496,8 @@ namespace EudamedAutomation
                         //// Save extracted data to Excel
                         Console.WriteLine($"Saving data for certificate");
 
+
+
                         worksheet.Cell(excelRowIndex, 1).Value = versionText;
                         worksheet.Cell(excelRowIndex, 2).Value = lastUpdateText;
                         worksheet.Cell(excelRowIndex, 3).Value = notifiedBodyID_text;
@@ -527,19 +528,6 @@ namespace EudamedAutomation
 
                         //worksheet.Cell(excelRowIndex, 26).Value = presenceOfMedicinalProduct;
                         //worksheet.Cell(excelRowIndex, 27).Value = presenceOfBloodPlasmaProduct;
-                        //
-                        ////UDI-DI details
-                        //
-                        //worksheet.Cell(excelRowIndex, 28).Value = versionText3;
-                        //worksheet.Cell(excelRowIndex, 29).Value = lastUpdateText3;
-                        //worksheet.Cell(excelRowIndex, 30).Value = udiDi;
-                        //worksheet.Cell(excelRowIndex, 31).Value = status;
-                        //worksheet.Cell(excelRowIndex, 32).Value = secondaryUdi;
-                        //worksheet.Cell(excelRowIndex, 33).Value = nomenclatureCode;
-                        //worksheet.Cell(excelRowIndex, 34).Value = tradeName;
-                        //worksheet.Cell(excelRowIndex, 35).Value = catalogueNumber;
-                        //worksheet.Cell(excelRowIndex, 36).Value = directMarking;
-                        //worksheet.Cell(excelRowIndex, 37).Value = quantity;
 
 
 
@@ -564,7 +552,7 @@ namespace EudamedAutomation
                     }
 
                     Console.WriteLine($"Moving to page {currentPage + 1}...");
-                    NavigateToNextPage((EdgeDriver)driver, currentPage);
+                    NavigateToNextPage((ChromeDriver)driver, currentPage);
                     // Wait until table rows are visible
                     wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("table tbody tr")));
                 }
@@ -588,7 +576,7 @@ namespace EudamedAutomation
 
         }
         // Navigate to the next page
-        public static void NavigateToNextPage(EdgeDriver driver, int currentPage)
+        public static void NavigateToNextPage(ChromeDriver driver, int currentPage)
         {
 
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(30));
