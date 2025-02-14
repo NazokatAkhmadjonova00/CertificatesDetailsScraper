@@ -124,63 +124,73 @@ namespace EudamedAutomation
                 worksheet.Cell(1, 25).Value = "Basic UDI-DI ";
                 worksheet.Cell(1, 26).Value = "Custom made class iii implantable";
                 worksheet.Cell(1, 27).Value = "Risk class";
+                worksheet.Cell(1, 28).Value = "Name";
 
-                worksheet.Cell(1, 28).Value = "Basic UDI-DI ";
-                worksheet.Cell(1, 29).Value = "Custom made class iii implantable";
-                worksheet.Cell(1, 30).Value = "Risk class";
+                worksheet.Cell(1, 29).Value = "Basic UDI-DI ";
+                worksheet.Cell(1, 30).Value = "Custom made class iii implantable";
+                worksheet.Cell(1, 31).Value = "Risk class";
+                worksheet.Cell(1, 32).Value = "Name";
 
-                worksheet.Cell(1, 31).Value = "Basic UDI-DI ";
-                worksheet.Cell(1, 32).Value = "Custom made class iii implantable";
-                worksheet.Cell(1, 33).Value = "Risk class";
-
-                worksheet.Cell(1, 34).Value = "Basic UDI-DI ";
-                worksheet.Cell(1, 35).Value = "Custom made class iii implantable";
-                worksheet.Cell(1, 36).Value = "Risk class";
+                worksheet.Cell(1, 33).Value = "Basic UDI-DI ";
+                worksheet.Cell(1, 34).Value = "Custom made class iii implantable";
+                worksheet.Cell(1, 35).Value = "Risk class";
+                worksheet.Cell(1, 36).Value = "Name";
 
                 worksheet.Cell(1, 37).Value = "Basic UDI-DI ";
                 worksheet.Cell(1, 38).Value = "Custom made class iii implantable";
                 worksheet.Cell(1, 39).Value = "Risk class";
+                worksheet.Cell(1, 40).Value = "Name";
 
-                worksheet.Cell(1, 40).Value = "Basic UDI-DI ";
-                worksheet.Cell(1, 41).Value = "Custom made class iii implantable";
-                worksheet.Cell(1, 42).Value = "Risk class";
+                worksheet.Cell(1, 41).Value = "Basic UDI-DI ";
+                worksheet.Cell(1, 42).Value = "Custom made class iii implantable";
+                worksheet.Cell(1, 43).Value = "Risk class";
+                worksheet.Cell(1, 44).Value = "Name";
 
-                worksheet.Cell(1, 43).Value = "Basic UDI-DI ";
-                worksheet.Cell(1, 44).Value = "Custom made class iii implantable";
-                worksheet.Cell(1, 45).Value = "Risk class";
-
-                worksheet.Cell(1, 46).Value = "Basic UDI-DI ";
-                worksheet.Cell(1, 47).Value = "Custom made class iii implantable";
-                worksheet.Cell(1, 48).Value = "Risk class";
+                worksheet.Cell(1, 45).Value = "Basic UDI-DI ";
+                worksheet.Cell(1, 46).Value = "Custom made class iii implantable";
+                worksheet.Cell(1, 47).Value = "Risk class";
+                worksheet.Cell(1, 48).Value = "Name";
 
                 worksheet.Cell(1, 49).Value = "Basic UDI-DI ";
                 worksheet.Cell(1, 50).Value = "Custom made class iii implantable";
                 worksheet.Cell(1, 51).Value = "Risk class";
+                worksheet.Cell(1, 52).Value = "Name";
 
-                worksheet.Cell(1, 52).Value = "Basic UDI-DI ";
-                worksheet.Cell(1, 53).Value = "Custom made class iii implantable";
-                worksheet.Cell(1, 54).Value = "Risk class";
+                worksheet.Cell(1, 53).Value = "Basic UDI-DI ";
+                worksheet.Cell(1, 54).Value = "Custom made class iii implantable";
+                worksheet.Cell(1, 55).Value = "Risk class";
+                worksheet.Cell(1, 56).Value = "Name";
+
+                worksheet.Cell(1, 57).Value = "Basic UDI-DI ";
+                worksheet.Cell(1, 58).Value = "Custom made class iii implantable";
+                worksheet.Cell(1, 59).Value = "Risk class";
+                worksheet.Cell(1, 60).Value = "Name";
+
+                worksheet.Cell(1, 61).Value = "Basic UDI-DI ";
+                worksheet.Cell(1, 62).Value = "Custom made class iii implantable";
+                worksheet.Cell(1, 63).Value = "Risk class";
+                worksheet.Cell(1, 64).Value = "Name";
 
                 //Devices groups 
-                worksheet.Cell(1, 55).Value = "Device group identification";
-                worksheet.Cell(1, 56).Value = "Risk classes";
-                worksheet.Cell(1, 57).Value = "Characteristic(s) of class I devices";
+                worksheet.Cell(1, 65).Value = "Device group identification";
+                worksheet.Cell(1, 66).Value = "Risk classes";
+                worksheet.Cell(1, 67).Value = "Characteristic(s) of class I devices";
 
-                worksheet.Cell(1, 58).Value = "Device group identification";
-                worksheet.Cell(1, 59).Value = "Risk classes";
-                worksheet.Cell(1, 60).Value = "Characteristic(s) of class I devices";
+                worksheet.Cell(1, 68).Value = "Device group identification";
+                worksheet.Cell(1, 69).Value = "Risk classes";
+                worksheet.Cell(1, 70).Value = "Characteristic(s) of class I devices";
 
-                worksheet.Cell(1, 61).Value = "Device group identification";
-                worksheet.Cell(1, 62).Value = "Risk classes";
-                worksheet.Cell(1, 63).Value = "Characteristic(s) of class I devices";
+                worksheet.Cell(1, 71).Value = "Device group identification";
+                worksheet.Cell(1, 72).Value = "Risk classes";
+                worksheet.Cell(1, 73).Value = "Characteristic(s) of class I devices";
 
-                worksheet.Cell(1, 64).Value = "Device group identification";
-                worksheet.Cell(1, 65).Value = "Risk classes";
-                worksheet.Cell(1, 66).Value = "Characteristic(s) of class I devices";
+                worksheet.Cell(1, 74).Value = "Device group identification";
+                worksheet.Cell(1, 75).Value = "Risk classes";
+                worksheet.Cell(1, 76).Value = "Characteristic(s) of class I devices";
 
-                worksheet.Cell(1, 67).Value = "Device group identification";
-                worksheet.Cell(1, 68).Value = "Risk classes";
-                worksheet.Cell(1, 69).Value = "Characteristic(s) of class I devices";
+                worksheet.Cell(1, 77).Value = "Device group identification";
+                worksheet.Cell(1, 78).Value = "Risk classes";
+                worksheet.Cell(1, 79).Value = "Characteristic(s) of class I devices";
 
                 //int rowNum = 2;
 
@@ -213,6 +223,33 @@ namespace EudamedAutomation
                         // WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(30));
                         var accordionElements = wait.Until(d => d.FindElements(By.XPath("//div[@class='mb-5']")));
                         Console.WriteLine("Details has loaded.");
+
+                        // Find all elements with aria-expanded="false"
+                        IReadOnlyCollection<IWebElement> collapsedElements = driver.FindElements(By.XPath("//mat-expansion-panel-header[@aria-expanded='false']"));
+
+                        Console.WriteLine("Collapsed elements count: " + collapsedElements.Count);
+
+                        foreach (IWebElement element in collapsedElements)
+                        {
+                            try
+                            {
+                                // Click to expand
+                                element.Click();
+
+                                // Wait for a short time to allow expansion
+                                Thread.Sleep(500);
+
+                                Console.WriteLine("Clicked to expand: " + element.Text);
+                            }
+                            catch (Exception ex)
+                            {
+                                Console.WriteLine("Could not expand element: " + ex.Message);
+                            }
+                        }
+
+                        // Verify the elements are expanded
+                        IReadOnlyCollection<IWebElement> expandedElements = driver.FindElements(By.XPath("//*[@aria-expanded='true']"));
+                        Console.WriteLine("Expanded elements count after clicking: " + expandedElements.Count);
                         //
 
                         // Extract the Version
@@ -356,7 +393,7 @@ namespace EudamedAutomation
                         //
                         //// Extract Starting certificate validity date
                         //
-                        string validityDate_element = "/dl[@class='row ng-star-inserted']//dt[contains(text(), 'Starting certificate validity date')]/following-sibling::dd/div";
+                        string validityDate_element = "//dl[@class='row ng-star-inserted']//dt[contains(text(), 'Starting certificate validity date')]/following-sibling::dd/div";
                         string validityDate_text = "";
 
                         try
@@ -546,6 +583,27 @@ namespace EudamedAutomation
 
                         //Devices
                         //Device I
+
+                        ////Basic UDI-DI
+                        string basicUDI_DI_element = "(//dt[contains(text(), 'Basic UDI-DI')]/following-sibling::dd//a)[1]";
+                        string basicUDI_DI_text = "";
+
+                        try
+                        {
+                            basicUDI_DI_text = driver.FindElement(By.XPath(basicUDI_DI_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Basic UDI-DI not found ");
+                            basicUDI_DI_text = "NA";
+
+
+                        }
+
+                        Console.WriteLine("Basic UDI-DI: " + basicUDI_DI_text);
+
+
                         ////Custom made class III implantable
                         string cliiiImplantable_element = "(//dt[contains(text(), 'Custom made class III implantable')]/following-sibling::dd/div[text()='No'])[1]";
                         string cliiiImplantable_text = "";
@@ -595,6 +653,25 @@ namespace EudamedAutomation
                         Console.WriteLine("Name class: " + name_text);
 
                         //Device II
+                        ////Basic UDI-DI
+                        string basicUDI_DI2_element = "(//dt[contains(text(), 'Basic UDI-DI')]/following-sibling::dd//a)[2]";
+                        string basicUDI_DI2_text = "";
+
+                        try
+                        {
+                            basicUDI_DI2_text = driver.FindElement(By.XPath(basicUDI_DI2_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Basic UDI-DI not found ");
+                            basicUDI_DI2_text = "NA";
+
+
+                        }
+
+                        Console.WriteLine("Basic UDI-DI: " + basicUDI_DI2_text);
+
                         ////Custom made class III implantable
                         string cliiiImplantable2_element = "(//dt[contains(text(), 'Custom made class III implantable')]/following-sibling::dd/div[text()='No'])[2]";
                         string cliiiImplantable2_text = "";
@@ -647,6 +724,25 @@ namespace EudamedAutomation
 
 
                         //Device III
+                        ////Basic UDI-DI
+                        string basicUDI_DI3_element = "(//dt[contains(text(), 'Basic UDI-DI')]/following-sibling::dd//a)[3]";
+                        string basicUDI_DI3_text = "";
+
+                        try
+                        {
+                            basicUDI_DI3_text = driver.FindElement(By.XPath(basicUDI_DI3_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Basic UDI-DI not found ");
+                            basicUDI_DI3_text = "NA";
+
+
+                        }
+
+                        Console.WriteLine("Basic UDI-DI: " + basicUDI_DI3_text);
+
                         ////Custom made class III implantable
                         string cliiiImplantable3_element = "(//dt[contains(text(), 'Custom made class III implantable')]/following-sibling::dd/div[text()='No'])[3]";
                         string cliiiImplantable3_text = "";
@@ -699,6 +795,25 @@ namespace EudamedAutomation
 
 
                         //Device IV
+                        ////Basic UDI-DI
+                        string basicUDI_DI4_element = "(//dt[contains(text(), 'Basic UDI-DI')]/following-sibling::dd//a)[4]";
+                        string basicUDI_DI4_text = "";
+
+                        try
+                        {
+                            basicUDI_DI4_text = driver.FindElement(By.XPath(basicUDI_DI4_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Basic UDI-DI not found ");
+                            basicUDI_DI4_text = "NA";
+
+
+                        }
+
+                        Console.WriteLine("Basic UDI-DI: " + basicUDI_DI4_text);
+
                         ////Custom made class III implantable
                         string cliiiImplantable4_element = "(//dt[contains(text(), 'Custom made class III implantable')]/following-sibling::dd/div[text()='No'])[4]";
                         string cliiiImplantable4_text = "";
@@ -751,6 +866,26 @@ namespace EudamedAutomation
 
 
                         //Device V
+                        ////Basic UDI-DI
+                        string basicUDI_DI5_element = "(//dt[contains(text(), 'Basic UDI-DI')]/following-sibling::dd//a)[5]";
+                        string basicUDI_DI5_text = "";
+
+                        try
+                        {
+                            basicUDI_DI5_text = driver.FindElement(By.XPath(basicUDI_DI5_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Basic UDI-DI not found ");
+                            basicUDI_DI5_text = "NA";
+
+
+                        }
+
+                        Console.WriteLine("Basic UDI-DI: " + basicUDI_DI5_text);
+
+
                         ////Custom made class III implantable
                         string cliiiImplantable5_element = "(//dt[contains(text(), 'Custom made class III implantable')]/following-sibling::dd/div[text()='No'])[5]";
                         string cliiiImplantable5_text = "";
@@ -802,6 +937,25 @@ namespace EudamedAutomation
 
 
                         //Device VI
+
+                        ////Basic UDI-DI
+                        string basicUDI_DI6_element = "(//dt[contains(text(), 'Basic UDI-DI')]/following-sibling::dd//a)[6]";
+                        string basicUDI_DI6_text = "";
+
+                        try
+                        {
+                            basicUDI_DI6_text = driver.FindElement(By.XPath(basicUDI_DI6_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Basic UDI-DI not found ");
+                            basicUDI_DI6_text = "NA";
+
+
+                        }
+
+                        Console.WriteLine("Basic UDI-DI: " + basicUDI_DI6_text);
                         ////Custom made class III implantable
                         string cliiiImplantable6_element = "(//dt[contains(text(), 'Custom made class III implantable')]/following-sibling::dd/div[text()='No'])[6]";
                         string cliiiImplantable6_text = "";
@@ -854,6 +1008,25 @@ namespace EudamedAutomation
 
 
                         //Device VII
+                        ////Basic UDI-DI
+                        string basicUDI_DI7_element = "(//dt[contains(text(), 'Basic UDI-DI')]/following-sibling::dd//a)[7]";
+                        string basicUDI_DI7_text = "";
+
+                        try
+                        {
+                            basicUDI_DI7_text = driver.FindElement(By.XPath(basicUDI_DI7_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Basic UDI-DI not found ");
+                            basicUDI_DI7_text = "NA";
+
+
+                        }
+                        Console.WriteLine("Basic UDI-DI: " + basicUDI_DI7_text);
+
+
                         ////Custom made class III implantable
                         string cliiiImplantable7_element = "(//dt[contains(text(), 'Custom made class III implantable')]/following-sibling::dd/div[text()='No'])[7]";
                         string cliiiImplantable7_text = "";
@@ -905,6 +1078,26 @@ namespace EudamedAutomation
                         Console.WriteLine("Name class: " + name7_text);
 
                         //Device VIII
+                        ////Basic UDI-DI
+                        string basicUDI_DI8_element = "(//dt[contains(text(), 'Basic UDI-DI')]/following-sibling::dd//a)[8]";
+                        string basicUDI_DI8_text = "";
+
+                        try
+                        {
+                            basicUDI_DI8_text = driver.FindElement(By.XPath(basicUDI_DI8_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Basic UDI-DI not found ");
+                            basicUDI_DI8_text = "NA";
+
+
+                        }
+
+                        Console.WriteLine("Basic UDI-DI: " + basicUDI_DI8_text);
+
+
                         ////Custom made class III implantable
                         string cliiiImplantable8_element = "(//dt[contains(text(), 'Custom made class III implantable')]/following-sibling::dd/div[text()='No'])[8]";
                         string cliiiImplantable8_text = "";
@@ -958,6 +1151,25 @@ namespace EudamedAutomation
 
 
                         //Device IX
+                        ////Basic UDI-DI
+                        string basicUDI_DI9_element = "(//dt[contains(text(), 'Basic UDI-DI')]/following-sibling::dd//a)[9]";
+                        string basicUDI_DI9_text = "";
+
+                        try
+                        {
+                            basicUDI_DI9_text = driver.FindElement(By.XPath(basicUDI_DI9_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Basic UDI-DI not found ");
+                            basicUDI_DI9_text = "NA";
+
+
+                        }
+
+                        Console.WriteLine("Basic UDI-DI: " + basicUDI_DI9_text);
+
                         ////Custom made class III implantable
                         string cliiiImplantable9_element = "(//dt[contains(text(), 'Custom made class III implantable')]/following-sibling::dd/div[text()='No'])[9]";
                         string cliiiImplantable9_text = "";
@@ -1012,6 +1224,25 @@ namespace EudamedAutomation
 
 
                         //Device X
+                        ////Basic UDI-DI
+                        string basicUDI_DI10_element = "(//dt[contains(text(), 'Basic UDI-DI')]/following-sibling::dd//a)[10]";
+                        string basicUDI_DI10_text = "";
+
+                        try
+                        {
+                            basicUDI_DI10_text = driver.FindElement(By.XPath(basicUDI_DI10_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Basic UDI-DI not found ");
+                            basicUDI_DI_text = "NA";
+
+
+                        }
+
+                        Console.WriteLine("Basic UDI-DI: " + basicUDI_DI10_text);
+
                         ////Custom made class III implantable
                         string cliiiImplantable10_element = "(//dt[contains(text(), 'Custom made class III implantable')]/following-sibling::dd/div[text()='No'])[10]";
                         string cliiiImplantable10_text = "";
@@ -1380,66 +1611,76 @@ namespace EudamedAutomation
                         worksheet.Cell(excelRowIndex, 24).Value = ConLim_text;
 
                         //Devices
-                        worksheet.Cell(excelRowIndex, 25).Value = cliiiImplantable_text;
-                        worksheet.Cell(excelRowIndex, 26).Value = riskClass_text;
-                        worksheet.Cell(excelRowIndex, 27).Value = name_text;
+                        worksheet.Cell(excelRowIndex, 25).Value = basicUDI_DI_text; 
+                        worksheet.Cell(excelRowIndex, 26).Value = cliiiImplantable_text;
+                        worksheet.Cell(excelRowIndex, 27).Value = riskClass_text;
+                        worksheet.Cell(excelRowIndex, 28).Value = name_text;
 
-                        worksheet.Cell(excelRowIndex, 28).Value = cliiiImplantable2_text;
-                        worksheet.Cell(excelRowIndex, 29).Value = riskClass2_text;
-                        worksheet.Cell(excelRowIndex, 30).Value = name2_text;
+                        worksheet.Cell(excelRowIndex, 29).Value = basicUDI_DI2_text;
+                        worksheet.Cell(excelRowIndex, 30).Value = cliiiImplantable2_text;
+                        worksheet.Cell(excelRowIndex, 31).Value = riskClass2_text;
+                        worksheet.Cell(excelRowIndex, 32).Value = name2_text;
 
-                        worksheet.Cell(excelRowIndex, 31).Value = cliiiImplantable3_text;
-                        worksheet.Cell(excelRowIndex, 32).Value = riskClass3_text;
-                        worksheet.Cell(excelRowIndex, 33).Value = name3_text;
+                        worksheet.Cell(excelRowIndex, 33).Value = basicUDI_DI3_text;
+                        worksheet.Cell(excelRowIndex, 34).Value = cliiiImplantable3_text;
+                        worksheet.Cell(excelRowIndex, 35).Value = riskClass3_text;
+                        worksheet.Cell(excelRowIndex, 36).Value = name3_text;
 
-                        worksheet.Cell(excelRowIndex, 34).Value = cliiiImplantable4_text;
-                        worksheet.Cell(excelRowIndex, 35).Value = riskClass4_text;
-                        worksheet.Cell(excelRowIndex, 36).Value = name4_text;
+                        worksheet.Cell(excelRowIndex, 37).Value = basicUDI_DI4_text;
+                        worksheet.Cell(excelRowIndex, 38).Value = cliiiImplantable4_text;
+                        worksheet.Cell(excelRowIndex, 39).Value = riskClass4_text;
+                        worksheet.Cell(excelRowIndex, 40).Value = name4_text;
 
-                        worksheet.Cell(excelRowIndex, 37).Value = cliiiImplantable5_text;
-                        worksheet.Cell(excelRowIndex, 38).Value = riskClass5_text;
-                        worksheet.Cell(excelRowIndex, 39).Value = name5_text;
+                        worksheet.Cell(excelRowIndex, 41).Value = basicUDI_DI5_text;
+                        worksheet.Cell(excelRowIndex, 42).Value = cliiiImplantable5_text;
+                        worksheet.Cell(excelRowIndex, 43).Value = riskClass5_text;
+                        worksheet.Cell(excelRowIndex, 44).Value = name5_text;
 
-                        worksheet.Cell(excelRowIndex, 40).Value = cliiiImplantable6_text;
-                        worksheet.Cell(excelRowIndex, 41).Value = riskClass6_text;
-                        worksheet.Cell(excelRowIndex, 42).Value = name6_text;
+                        worksheet.Cell(excelRowIndex, 45).Value = basicUDI_DI6_text;
+                        worksheet.Cell(excelRowIndex, 46).Value = cliiiImplantable6_text;
+                        worksheet.Cell(excelRowIndex, 47).Value = riskClass6_text;
+                        worksheet.Cell(excelRowIndex, 48).Value = name6_text;
 
-                        worksheet.Cell(excelRowIndex, 43).Value = cliiiImplantable7_text;
-                        worksheet.Cell(excelRowIndex, 44).Value = riskClass7_text;
-                        worksheet.Cell(excelRowIndex, 45).Value = name7_text;
+                        worksheet.Cell(excelRowIndex, 49).Value = basicUDI_DI7_text;
+                        worksheet.Cell(excelRowIndex, 50).Value = cliiiImplantable7_text;
+                        worksheet.Cell(excelRowIndex, 51).Value = riskClass7_text;
+                        worksheet.Cell(excelRowIndex, 52).Value = name7_text;
 
-                        worksheet.Cell(excelRowIndex, 46).Value = cliiiImplantable8_text;
-                        worksheet.Cell(excelRowIndex, 47).Value = riskClass8_text;
-                        worksheet.Cell(excelRowIndex, 48).Value = name8_text;
+                        worksheet.Cell(excelRowIndex, 53).Value = basicUDI_DI8_text;
+                        worksheet.Cell(excelRowIndex, 54).Value = cliiiImplantable8_text;
+                        worksheet.Cell(excelRowIndex, 55).Value = riskClass8_text;
+                        worksheet.Cell(excelRowIndex, 56).Value = name8_text;
 
-                        worksheet.Cell(excelRowIndex, 49).Value = cliiiImplantable9_text;
-                        worksheet.Cell(excelRowIndex, 50).Value = riskClass9_text;
-                        worksheet.Cell(excelRowIndex, 51).Value = name9_text;
+                        worksheet.Cell(excelRowIndex, 57).Value = basicUDI_DI9_text;
+                        worksheet.Cell(excelRowIndex, 58).Value = cliiiImplantable9_text;
+                        worksheet.Cell(excelRowIndex, 59).Value = riskClass9_text;
+                        worksheet.Cell(excelRowIndex, 60).Value = name9_text;
 
-                        worksheet.Cell(excelRowIndex, 52).Value = cliiiImplantable10_text;
-                        worksheet.Cell(excelRowIndex, 53).Value = riskClass10_text;
-                        worksheet.Cell(excelRowIndex, 54).Value = name10_text;
+                        worksheet.Cell(excelRowIndex, 61).Value = basicUDI_DI10_text;
+                        worksheet.Cell(excelRowIndex, 62).Value = cliiiImplantable10_text;
+                        worksheet.Cell(excelRowIndex, 63).Value = riskClass10_text;
+                        worksheet.Cell(excelRowIndex, 64).Value = name10_text;
 
                         //Device Groups
-                        worksheet.Cell(excelRowIndex, 55).Value = deviceGroupID_text;
-                        worksheet.Cell(excelRowIndex, 56).Value = riskClasses_text;
-                        worksheet.Cell(excelRowIndex, 57).Value = charClassI_text;
+                        worksheet.Cell(excelRowIndex, 65).Value = deviceGroupID_text;
+                        worksheet.Cell(excelRowIndex, 66).Value = riskClasses_text;
+                        worksheet.Cell(excelRowIndex, 67).Value = charClassI_text;
 
-                        worksheet.Cell(excelRowIndex, 58).Value = deviceGroupID2_text;
-                        worksheet.Cell(excelRowIndex, 59).Value = riskClasses2_text;
-                        worksheet.Cell(excelRowIndex, 60).Value = charClassI2_text;
+                        worksheet.Cell(excelRowIndex, 68).Value = deviceGroupID2_text;
+                        worksheet.Cell(excelRowIndex, 69).Value = riskClasses2_text;
+                        worksheet.Cell(excelRowIndex, 70).Value = charClassI2_text;
 
-                        worksheet.Cell(excelRowIndex, 61).Value = deviceGroupID3_text;
-                        worksheet.Cell(excelRowIndex, 62).Value = riskClasses3_text;
-                        worksheet.Cell(excelRowIndex, 63).Value = charClassI3_text;
+                        worksheet.Cell(excelRowIndex, 71).Value = deviceGroupID3_text;
+                        worksheet.Cell(excelRowIndex, 72).Value = riskClasses3_text;
+                        worksheet.Cell(excelRowIndex, 73).Value = charClassI3_text;
 
-                        worksheet.Cell(excelRowIndex, 64).Value = deviceGroupID4_text;
-                        worksheet.Cell(excelRowIndex, 65).Value = riskClasses4_text;
-                        worksheet.Cell(excelRowIndex, 66).Value = charClassI4_text;
+                        worksheet.Cell(excelRowIndex, 74).Value = deviceGroupID4_text;
+                        worksheet.Cell(excelRowIndex, 75).Value = riskClasses4_text;
+                        worksheet.Cell(excelRowIndex, 76).Value = charClassI4_text;
 
-                        worksheet.Cell(excelRowIndex, 67).Value = deviceGroupID5_text;
-                        worksheet.Cell(excelRowIndex, 68).Value = riskClasses5_text;
-                        worksheet.Cell(excelRowIndex, 69).Value = charClassI5_text;
+                        worksheet.Cell(excelRowIndex, 77).Value = deviceGroupID5_text;
+                        worksheet.Cell(excelRowIndex, 78).Value = riskClasses5_text;
+                        worksheet.Cell(excelRowIndex, 79).Value = charClassI5_text;
 
 
                         Console.WriteLine($"*****************************************************************Datasaved in row {excelRowIndex}");
@@ -1453,9 +1694,9 @@ namespace EudamedAutomation
 
                         // Save the Excel file
                         Console.WriteLine("Saving the extracted data to an Excel file...");
-                        workbook.SaveAs("Eudamed_Certificate_Data.xlsx");
+                        workbook.SaveAs("Eudamed_Certificates_Data2.xlsx");
 
-                        Console.WriteLine($"Data extraction for a product No {i + 1}! Excel file saved as 'Eudamed_Certificate_Data.xlsx'.");
+                        Console.WriteLine($"Data extraction for a product No {i + 1}! Excel file saved as 'Eudamed_Certificates_Data2.xlsx'.");
 
                         // Wait for the table to reload
                         Console.WriteLine("Waiting for the table to reload...");
