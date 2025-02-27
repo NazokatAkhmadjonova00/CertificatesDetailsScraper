@@ -121,76 +121,81 @@ namespace EudamedAutomation
                 worksheet.Cell(1, 24).Value = "Conditions or limitations";
 
                 //Devices
-                worksheet.Cell(1, 25).Value = "Basic UDI-DI ";
-                worksheet.Cell(1, 26).Value = "Custom made class iii implantable";
-                worksheet.Cell(1, 27).Value = "Risk class";
+                worksheet.Cell(1, 25).Value = "1/Basic UDI-DI ";
+                //worksheet.Cell(1, 26).Value = "Custom made class iii implantable";
+                //worksheet.Cell(1, 27).Value = "Risk class";
+                worksheet.Cell(1, 26).Value = "Name";
+
+                worksheet.Cell(1, 27).Value = "2/Basic UDI-DI ";
+                //worksheet.Cell(1, 30).Value = "Custom made class iii implantable";
+                //worksheet.Cell(1, 31).Value = "Risk class";
                 worksheet.Cell(1, 28).Value = "Name";
 
-                worksheet.Cell(1, 29).Value = "Basic UDI-DI ";
-                worksheet.Cell(1, 30).Value = "Custom made class iii implantable";
-                worksheet.Cell(1, 31).Value = "Risk class";
+                worksheet.Cell(1, 29).Value = "3/Basic UDI-DI ";
+                //worksheet.Cell(1, 34).Value = "Custom made class iii implantable";
+                //worksheet.Cell(1, 35).Value = "Risk class";
+                worksheet.Cell(1, 30).Value = "Name";
+
+                worksheet.Cell(1, 31).Value = "4/Basic UDI-DI ";
+                //worksheet.Cell(1, 38).Value = "Custom made class iii implantable";
+                //worksheet.Cell(1, 39).Value = "Risk class";
                 worksheet.Cell(1, 32).Value = "Name";
 
-                worksheet.Cell(1, 33).Value = "Basic UDI-DI ";
-                worksheet.Cell(1, 34).Value = "Custom made class iii implantable";
-                worksheet.Cell(1, 35).Value = "Risk class";
+                worksheet.Cell(1, 33).Value = "5/Basic UDI-DI ";
+                //worksheet.Cell(1, 42).Value = "Custom made class iii implantable";
+                //worksheet.Cell(1, 43).Value = "Risk class";
+                worksheet.Cell(1, 34).Value = "Name";
+
+                worksheet.Cell(1, 35).Value = "6/Basic UDI-DI ";
+                //worksheet.Cell(1, 46).Value = "Custom made class iii implantable";
+                //worksheet.Cell(1, 47).Value = "Risk class";
                 worksheet.Cell(1, 36).Value = "Name";
 
-                worksheet.Cell(1, 37).Value = "Basic UDI-DI ";
-                worksheet.Cell(1, 38).Value = "Custom made class iii implantable";
-                worksheet.Cell(1, 39).Value = "Risk class";
+                worksheet.Cell(1, 37).Value = "7/Basic UDI-DI ";
+                //worksheet.Cell(1, 50).Value = "Custom made class iii implantable";
+                //worksheet.Cell(1, 51).Value = "Risk class";
+                worksheet.Cell(1, 38).Value = "Name";
+
+                worksheet.Cell(1, 39).Value = "8/Basic UDI-DI ";
+                //worksheet.Cell(1, 54).Value = "Custom made class iii implantable";
+                //worksheet.Cell(1, 55).Value = "Risk class";
                 worksheet.Cell(1, 40).Value = "Name";
 
-                worksheet.Cell(1, 41).Value = "Basic UDI-DI ";
-                worksheet.Cell(1, 42).Value = "Custom made class iii implantable";
-                worksheet.Cell(1, 43).Value = "Risk class";
+                worksheet.Cell(1, 41).Value = "9/Basic UDI-DI ";
+                //worksheet.Cell(1, 58).Value = "Custom made class iii implantable";
+                //worksheet.Cell(1, 59).Value = "Risk class";
+                worksheet.Cell(1, 42).Value = "Name";
+
+                worksheet.Cell(1, 43).Value = "10/Basic UDI-DI ";
+                //worksheet.Cell(1, 62).Value = "Custom made class iii implantable";
+                //worksheet.Cell(1, 63).Value = "Risk class";
                 worksheet.Cell(1, 44).Value = "Name";
 
-                worksheet.Cell(1, 45).Value = "Basic UDI-DI ";
-                worksheet.Cell(1, 46).Value = "Custom made class iii implantable";
-                worksheet.Cell(1, 47).Value = "Risk class";
-                worksheet.Cell(1, 48).Value = "Name";
-
-                worksheet.Cell(1, 49).Value = "Basic UDI-DI ";
-                worksheet.Cell(1, 50).Value = "Custom made class iii implantable";
-                worksheet.Cell(1, 51).Value = "Risk class";
-                worksheet.Cell(1, 52).Value = "Name";
-
-                worksheet.Cell(1, 53).Value = "Basic UDI-DI ";
-                worksheet.Cell(1, 54).Value = "Custom made class iii implantable";
-                worksheet.Cell(1, 55).Value = "Risk class";
-                worksheet.Cell(1, 56).Value = "Name";
-
-                worksheet.Cell(1, 57).Value = "Basic UDI-DI ";
-                worksheet.Cell(1, 58).Value = "Custom made class iii implantable";
-                worksheet.Cell(1, 59).Value = "Risk class";
-                worksheet.Cell(1, 60).Value = "Name";
-
-                worksheet.Cell(1, 61).Value = "Basic UDI-DI ";
-                worksheet.Cell(1, 62).Value = "Custom made class iii implantable";
-                worksheet.Cell(1, 63).Value = "Risk class";
-                worksheet.Cell(1, 64).Value = "Name";
-
                 //Devices groups 
-                worksheet.Cell(1, 65).Value = "Device group identification";
-                worksheet.Cell(1, 66).Value = "Risk classes";
-                worksheet.Cell(1, 67).Value = "Characteristic(s) of class I devices";
+                worksheet.Cell(1, 45).Value = "1/Device group identification";
+                //worksheet.Cell(1, 66).Value = "Risk classes";
+                //worksheet.Cell(1, 67).Value = "Characteristic(s) of class I devices";
 
-                worksheet.Cell(1, 68).Value = "Device group identification";
-                worksheet.Cell(1, 69).Value = "Risk classes";
-                worksheet.Cell(1, 70).Value = "Characteristic(s) of class I devices";
+                worksheet.Cell(1, 46).Value = "2/Device group identification";
+               // worksheet.Cell(1, 69).Value = "Risk classes";
+               // worksheet.Cell(1, 70).Value = "Characteristic(s) of class I devices";
 
-                worksheet.Cell(1, 71).Value = "Device group identification";
-                worksheet.Cell(1, 72).Value = "Risk classes";
-                worksheet.Cell(1, 73).Value = "Characteristic(s) of class I devices";
+                worksheet.Cell(1, 47).Value = "3/Device group identification";
+                //worksheet.Cell(1, 72).Value = "Risk classes";
+                //worksheet.Cell(1, 73).Value = "Characteristic(s) of class I devices";
 
-                worksheet.Cell(1, 74).Value = "Device group identification";
-                worksheet.Cell(1, 75).Value = "Risk classes";
-                worksheet.Cell(1, 76).Value = "Characteristic(s) of class I devices";
+                worksheet.Cell(1, 48).Value = "4/Device group identification";
+                //worksheet.Cell(1, 75).Value = "Risk classes";
+                //worksheet.Cell(1, 76).Value = "Characteristic(s) of class I devices";
 
-                worksheet.Cell(1, 77).Value = "Device group identification";
-                worksheet.Cell(1, 78).Value = "Risk classes";
-                worksheet.Cell(1, 79).Value = "Characteristic(s) of class I devices";
+                worksheet.Cell(1, 49).Value = "5/Device group identification";
+                //worksheet.Cell(1, 78).Value = "Risk classes";
+                //worksheet.Cell(1, 79).Value = "Characteristic(s) of class I devices";
+                worksheet.Cell(1, 50).Value = "6/Device group identification";
+                worksheet.Cell(1, 51).Value = "7/Device group identification";
+                worksheet.Cell(1, 52).Value = "8/Device group identification";
+                worksheet.Cell(1, 53).Value = "9/Device group identification";
+                worksheet.Cell(1, 54).Value = "10/Device group identification";
 
                 //int rowNum = 2;
 
@@ -222,34 +227,93 @@ namespace EudamedAutomation
 
                         // WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(30));
                         var accordionElements = wait.Until(d => d.FindElements(By.XPath("//div[@class='mb-5']")));
+                       // WebDriverWait wait2 = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+                        //wait2.Until(d => d.FindElements(By.CssSelector("mat-expansion-panel-header")).Count > 0);
+
                         Console.WriteLine("Details has loaded.");
 
-                        // Find all elements with aria-expanded="false"
-                        IReadOnlyCollection<IWebElement> collapsedElements = driver.FindElements(By.XPath("//mat-expansion-panel-header[@aria-expanded='false']"));
 
-                        Console.WriteLine("Collapsed elements count: " + collapsedElements.Count);
 
-                        foreach (IWebElement element in collapsedElements)
-                        {
-                            try
-                            {
-                                // Click to expand
-                                element.Click();
+                        // Find all accordion headers
+                        //ReadOnlyCollection<IWebElement> accordions = driver.FindElements(By.CssSelector("mat-expansion-panel-header"));
 
-                                // Wait for a short time to allow expansion
-                                Thread.Sleep(500);
+                        //Console.WriteLine("Collapsed elements count: " + accordions.Count);
 
-                                Console.WriteLine("Clicked to expand: " + element.Text);
-                            }
-                            catch (Exception ex)
-                            {
-                                Console.WriteLine("Could not expand element: " + ex.Message);
-                            }
-                        }
+                        // Iterate through each header and click to expand if collapsed
+                       ///
+                       // try
+                        //
+                        //{
+                        //    // Wait for accordions to load
+                        //    wait.Until(d => d.FindElements(By.CssSelector("mat-expansion-panel-header")).Count > 0);
+                        //
+                        //    IReadOnlyCollection<IWebElement> accordions = driver.FindElements(By.CssSelector("mat-expansion-panel-header"));
+                        //
+                        //    if (accordions.Count == 0)
+                        //    {
+                        //        Console.WriteLine("No accordions found. Moving on...");
+                        //    }
+                        //    else
+                        //    {
+                        //        Console.WriteLine($"Total accordions found: {accordions.Count}");
+                        //
+                        //        foreach (IWebElement accordion in accordions)
+                        //        {
+                        //            try
+                        //            {
+                        //                string isExpanded = accordion.GetDomAttribute("aria-expanded");
+                        //
+                        //                if (isExpanded == "false")
+                        //                {
+                        //                    Console.WriteLine($"Expanding accordion: {accordion.Text}");
+                        //
+                        //                    // Scroll into view before clicking
+                        //                    ((IJavaScriptExecutor)driver).ExecuteScript("arguments[0].scrollIntoView(true);", accordion);
+                        //                    Thread.Sleep(200); // Allow time for scroll
+                        //
+                        //                    // Try JavaScript click if normal click doesn't work
+                        //                    try
+                        //                    {
+                        //                        accordion.Click();
+                        //                    }
+                        //                    catch (Exception)
+                        //                    {
+                        //                        ((IJavaScriptExecutor)driver).ExecuteScript("arguments[0].click();", accordion);
+                        //                    }
+                        //
+                        //                    Thread.Sleep(500); // Allow animation time
+                        //                }
+                        //            }
+                        //            catch (StaleElementReferenceException)
+                        //            {
+                        //                Console.WriteLine("Accordion became stale, re-locating...");
+                        //                IWebElement newAccordion = driver.FindElement(By.CssSelector("mat-expansion-panel-header")); // ✅ New variable
+                        //                newAccordion.Click();
+                        //            }
+                        //            catch (NoSuchElementException)
+                        //            {
+                        //                Console.WriteLine("Accordion disappeared, skipping...");
+                        //            }
+                        //        }
+                        //    }
+                        //}
+                        //catch (WebDriverTimeoutException)
+                        //{
+                        //    Console.WriteLine("No accordions found within the timeout. Moving on...");
+                        //}
+                        //catch (Exception ex)
+                        //{
+                        //    Console.WriteLine($"Unexpected error: {ex.Message}");
+                        //}
+                       //
+                       //
+                       // // Continue with the rest of the code
+                       // Console.WriteLine("Continuing with the rest of the script...");
+
 
                         // Verify the elements are expanded
-                        IReadOnlyCollection<IWebElement> expandedElements = driver.FindElements(By.XPath("//*[@aria-expanded='true']"));
-                        Console.WriteLine("Expanded elements count after clicking: " + expandedElements.Count);
+                      //  IReadOnlyCollection<IWebElement> expandedElements = driver.FindElements(By.XPath("//*[@aria-expanded='true']"));
+                      //  Console.WriteLine("Expanded elements count after clicking: " + expandedElements.Count);
                         //
 
                         // Extract the Version
@@ -559,7 +623,7 @@ namespace EudamedAutomation
 
                         Console.WriteLine("Device without an intended medical purpose listed in Annex xvi to Regulation (EU) 2017/745 : " + noMedPurpose_text);
 
-                        
+
 
                         //
                         ////Conditions or limitations
@@ -585,20 +649,22 @@ namespace EudamedAutomation
                         //Device I
 
                         ////Basic UDI-DI
-                        string basicUDI_DI_element = "(//dt[contains(text(), 'Basic UDI-DI')]/following-sibling::dd//a)[1]";
+                        ///
+                        // Extract Basic UDI-DI
+                        
+
+                        string basicUDI_DI_element = "(//mat-expansion-panel-header//mat-panel-title//div[contains(text(),'Basic UDI-DI:')])[1]";
                         string basicUDI_DI_text = "";
 
                         try
                         {
-                            basicUDI_DI_text = driver.FindElement(By.XPath(basicUDI_DI_element)).Text;
+                            basicUDI_DI_text = driver.FindElement(By.XPath(basicUDI_DI_element)).Text.Replace("Basic UDI-DI: ", "").Trim();
                         }
                         catch (NoSuchElementException)
                         {
                             // If the element is not found, as empty
                             Console.WriteLine("Basic UDI-DI not found ");
                             basicUDI_DI_text = "NA";
-
-
                         }
 
                         Console.WriteLine("Basic UDI-DI: " + basicUDI_DI_text);
@@ -637,12 +703,12 @@ namespace EudamedAutomation
                         Console.WriteLine("Risk class: " + riskClass_text);
 
                         ////Name
-                        string name_element = "(//dt[contains(text(), 'Name')]/following-sibling::dd/div)[1]";
+                        string name_element = "(//mat-expansion-panel-header//mat-panel-title//div[contains(text(),'Device name:')])[1]";
                         string name_text = "";
 
                         try
                         {
-                            name_text = driver.FindElement(By.XPath(name_element)).Text;
+                            name_text = driver.FindElement(By.XPath(name_element)).Text.Replace("Device name: ", "").Trim();
                         }
                         catch (NoSuchElementException)
                         {
@@ -650,16 +716,16 @@ namespace EudamedAutomation
                             Console.WriteLine("Name not found ");
                         }
 
-                        Console.WriteLine("Name class: " + name_text);
+                        Console.WriteLine("Name: " + name_text);
 
                         //Device II
                         ////Basic UDI-DI
-                        string basicUDI_DI2_element = "(//dt[contains(text(), 'Basic UDI-DI')]/following-sibling::dd//a)[2]";
+                        string basicUDI_DI2_element = "(//mat-expansion-panel-header//mat-panel-title//div[contains(text(),'Basic UDI-DI:')])[2]";
                         string basicUDI_DI2_text = "";
 
                         try
                         {
-                            basicUDI_DI2_text = driver.FindElement(By.XPath(basicUDI_DI2_element)).Text;
+                            basicUDI_DI2_text = driver.FindElement(By.XPath(basicUDI_DI2_element)).Text.Replace("Basic UDI-DI: ", "").Trim();
                         }
                         catch (NoSuchElementException)
                         {
@@ -706,12 +772,12 @@ namespace EudamedAutomation
 
 
                         ////Name
-                        string name2_element = "(//dt[contains(text(), 'Name')]/following-sibling::dd/div)[2]";
+                        string name2_element = "(//mat-expansion-panel-header//mat-panel-title//div[contains(text(),'Device name:')])[2]";
                         string name2_text = "";
 
                         try
                         {
-                            name2_text = driver.FindElement(By.XPath(name2_element)).Text;
+                            name2_text = driver.FindElement(By.XPath(name2_element)).Text.Replace("Device name: ", "").Trim();
                         }
                         catch (NoSuchElementException)
                         {
@@ -725,12 +791,12 @@ namespace EudamedAutomation
 
                         //Device III
                         ////Basic UDI-DI
-                        string basicUDI_DI3_element = "(//dt[contains(text(), 'Basic UDI-DI')]/following-sibling::dd//a)[3]";
+                        string basicUDI_DI3_element = "(//mat-expansion-panel-header//mat-panel-title//div[contains(text(),'Basic UDI-DI:')])[3]";
                         string basicUDI_DI3_text = "";
 
                         try
                         {
-                            basicUDI_DI3_text = driver.FindElement(By.XPath(basicUDI_DI3_element)).Text;
+                            basicUDI_DI3_text = driver.FindElement(By.XPath(basicUDI_DI3_element)).Text.Replace("Basic UDI-DI: ", "").Trim();
                         }
                         catch (NoSuchElementException)
                         {
@@ -778,12 +844,12 @@ namespace EudamedAutomation
 
 
                         ////Name
-                        string name3_element = "(//dt[contains(text(), 'Name')]/following-sibling::dd/div)[3]";
+                        string name3_element = "(//mat-expansion-panel-header//mat-panel-title//div[contains(text(),'Device name:')])[3]";
                         string name3_text = "";
 
                         try
                         {
-                            name3_text = driver.FindElement(By.XPath(name3_element)).Text;
+                            name3_text = driver.FindElement(By.XPath(name3_element)).Text.Replace("Device name: ", "").Trim();
                         }
                         catch (NoSuchElementException)
                         {
@@ -796,12 +862,12 @@ namespace EudamedAutomation
 
                         //Device IV
                         ////Basic UDI-DI
-                        string basicUDI_DI4_element = "(//dt[contains(text(), 'Basic UDI-DI')]/following-sibling::dd//a)[4]";
+                        string basicUDI_DI4_element = "(//mat-expansion-panel-header//mat-panel-title//div[contains(text(),'Basic UDI-DI:')])[4]";
                         string basicUDI_DI4_text = "";
 
                         try
                         {
-                            basicUDI_DI4_text = driver.FindElement(By.XPath(basicUDI_DI4_element)).Text;
+                            basicUDI_DI4_text = driver.FindElement(By.XPath(basicUDI_DI4_element)).Text.Replace("Basic UDI-DI: ", "").Trim();
                         }
                         catch (NoSuchElementException)
                         {
@@ -849,12 +915,12 @@ namespace EudamedAutomation
 
 
                         ////Name
-                        string name4_element = "(//dt[contains(text(), 'Name')]/following-sibling::dd/div)[4]";
+                        string name4_element = "(//mat-expansion-panel-header//mat-panel-title//div[contains(text(),'Device name:')])[4]";
                         string name4_text = "";
 
                         try
                         {
-                            name4_text = driver.FindElement(By.XPath(name4_element)).Text;
+                            name4_text = driver.FindElement(By.XPath(name4_element)).Text.Replace("Device name: ", "").Trim();
                         }
                         catch (NoSuchElementException)
                         {
@@ -867,7 +933,7 @@ namespace EudamedAutomation
 
                         //Device V
                         ////Basic UDI-DI
-                        string basicUDI_DI5_element = "(//dt[contains(text(), 'Basic UDI-DI')]/following-sibling::dd//a)[5]";
+                        string basicUDI_DI5_element = "(//mat-expansion-panel-header//mat-panel-title//div[contains(text(),'Basic UDI-DI:')])[5]";
                         string basicUDI_DI5_text = "";
 
                         try
@@ -920,12 +986,12 @@ namespace EudamedAutomation
                         Console.WriteLine("Risk class: " + riskClass5_text);
 
                         ////Name
-                        string name5_element = "(//dt[contains(text(), 'Name')]/following-sibling::dd/div)[5]";
+                        string name5_element = "(//mat-expansion-panel-header//mat-panel-title//div[contains(text(),'Device name:')])[5]";
                         string name5_text = "";
 
                         try
                         {
-                            name5_text = driver.FindElement(By.XPath(name5_element)).Text;
+                            name5_text = driver.FindElement(By.XPath(name5_element)).Text.Replace("Device name: ", "").Trim();
                         }
                         catch (NoSuchElementException)
                         {
@@ -939,12 +1005,12 @@ namespace EudamedAutomation
                         //Device VI
 
                         ////Basic UDI-DI
-                        string basicUDI_DI6_element = "(//dt[contains(text(), 'Basic UDI-DI')]/following-sibling::dd//a)[6]";
+                        string basicUDI_DI6_element = "(//mat-expansion-panel-header//mat-panel-title//div[contains(text(),'Basic UDI-DI:')])[6]";
                         string basicUDI_DI6_text = "";
 
                         try
                         {
-                            basicUDI_DI6_text = driver.FindElement(By.XPath(basicUDI_DI6_element)).Text;
+                            basicUDI_DI6_text = driver.FindElement(By.XPath(basicUDI_DI6_element)).Text.Replace("Basic UDI-DI: ", "").Trim();
                         }
                         catch (NoSuchElementException)
                         {
@@ -991,12 +1057,12 @@ namespace EudamedAutomation
 
 
                         ////Name
-                        string name6_element = "(//dt[contains(text(), 'Name')]/following-sibling::dd/div)[6]";
+                        string name6_element = "(//mat-expansion-panel-header//mat-panel-title//div[contains(text(),'Device name:')])[6]";
                         string name6_text = "";
 
                         try
                         {
-                            name6_text = driver.FindElement(By.XPath(name6_element)).Text;
+                            name6_text = driver.FindElement(By.XPath(name6_element)).Text.Replace("Device name: ", "").Trim();
                         }
                         catch (NoSuchElementException)
                         {
@@ -1009,12 +1075,12 @@ namespace EudamedAutomation
 
                         //Device VII
                         ////Basic UDI-DI
-                        string basicUDI_DI7_element = "(//dt[contains(text(), 'Basic UDI-DI')]/following-sibling::dd//a)[7]";
+                        string basicUDI_DI7_element = "(//mat-expansion-panel-header//mat-panel-title//div[contains(text(),'Basic UDI-DI:')])[7]";
                         string basicUDI_DI7_text = "";
 
                         try
                         {
-                            basicUDI_DI7_text = driver.FindElement(By.XPath(basicUDI_DI7_element)).Text;
+                            basicUDI_DI7_text = driver.FindElement(By.XPath(basicUDI_DI7_element)).Text.Replace("Basic UDI-DI: ", "").Trim();
                         }
                         catch (NoSuchElementException)
                         {
@@ -1051,7 +1117,7 @@ namespace EudamedAutomation
 
                         try
                         {
-                            riskClass6_text = driver.FindElement(By.XPath(riskClass7_element)).Text;
+                            riskClass7_text = driver.FindElement(By.XPath(riskClass7_element)).Text;
                         }
                         catch (NoSuchElementException)
                         {
@@ -1062,12 +1128,12 @@ namespace EudamedAutomation
                         Console.WriteLine("Risk class: " + riskClass7_text);
 
                         ////Name
-                        string name7_element = "(//dt[contains(text(), 'Name')]/following-sibling::dd/div)[7]";
+                        string name7_element = "(//mat-expansion-panel-header//mat-panel-title//div[contains(text(),'Device name:')])[7]";
                         string name7_text = "";
 
                         try
                         {
-                            name7_text = driver.FindElement(By.XPath(name7_element)).Text;
+                            name7_text = driver.FindElement(By.XPath(name7_element)).Text.Replace("Device name: ", "").Trim();
                         }
                         catch (NoSuchElementException)
                         {
@@ -1079,12 +1145,12 @@ namespace EudamedAutomation
 
                         //Device VIII
                         ////Basic UDI-DI
-                        string basicUDI_DI8_element = "(//dt[contains(text(), 'Basic UDI-DI')]/following-sibling::dd//a)[8]";
+                        string basicUDI_DI8_element = "(//mat-expansion-panel-header//mat-panel-title//div[contains(text(),'Basic UDI-DI:')])[8]";
                         string basicUDI_DI8_text = "";
 
                         try
                         {
-                            basicUDI_DI8_text = driver.FindElement(By.XPath(basicUDI_DI8_element)).Text;
+                            basicUDI_DI8_text = driver.FindElement(By.XPath(basicUDI_DI8_element)).Text.Replace("Basic UDI-DI: ", "").Trim();
                         }
                         catch (NoSuchElementException)
                         {
@@ -1134,12 +1200,12 @@ namespace EudamedAutomation
 
 
                         ////Name
-                        string name8_element = "(//dt[contains(text(), 'Name')]/following-sibling::dd/div)[8]";
+                        string name8_element = "(//mat-expansion-panel-header//mat-panel-title//div[contains(text(),'Device name:')])[8]";
                         string name8_text = "";
 
                         try
                         {
-                            name8_text = driver.FindElement(By.XPath(name8_element)).Text;
+                            name8_text = driver.FindElement(By.XPath(name8_element)).Text.Replace("Device name: ", "").Trim();
                         }
                         catch (NoSuchElementException)
                         {
@@ -1152,12 +1218,12 @@ namespace EudamedAutomation
 
                         //Device IX
                         ////Basic UDI-DI
-                        string basicUDI_DI9_element = "(//dt[contains(text(), 'Basic UDI-DI')]/following-sibling::dd//a)[9]";
+                        string basicUDI_DI9_element = "(//mat-expansion-panel-header//mat-panel-title//div[contains(text(),'Basic UDI-DI:')])[9]";
                         string basicUDI_DI9_text = "";
 
                         try
                         {
-                            basicUDI_DI9_text = driver.FindElement(By.XPath(basicUDI_DI9_element)).Text;
+                            basicUDI_DI9_text = driver.FindElement(By.XPath(basicUDI_DI9_element)).Text.Replace("Basic UDI-DI: ", "").Trim();
                         }
                         catch (NoSuchElementException)
                         {
@@ -1206,12 +1272,12 @@ namespace EudamedAutomation
 
 
                         ////Name
-                        string name9_element = "(//dt[contains(text(), 'Name')]/following-sibling::dd/div)[9]";
+                        string name9_element = "(//mat-expansion-panel-header//mat-panel-title//div[contains(text(),'Device name:')])[9]";
                         string name9_text = "";
 
                         try
                         {
-                            name9_text = driver.FindElement(By.XPath(name9_element)).Text;
+                            name9_text = driver.FindElement(By.XPath(name9_element)).Text.Replace("Device name: ", "").Trim();
                         }
                         catch (NoSuchElementException)
                         {
@@ -1225,18 +1291,18 @@ namespace EudamedAutomation
 
                         //Device X
                         ////Basic UDI-DI
-                        string basicUDI_DI10_element = "(//dt[contains(text(), 'Basic UDI-DI')]/following-sibling::dd//a)[10]";
+                        string basicUDI_DI10_element = "(//mat-expansion-panel-header//mat-panel-title//div[contains(text(),'Basic UDI-DI:')])[10]";
                         string basicUDI_DI10_text = "";
 
                         try
                         {
-                            basicUDI_DI10_text = driver.FindElement(By.XPath(basicUDI_DI10_element)).Text;
+                            basicUDI_DI10_text = driver.FindElement(By.XPath(basicUDI_DI10_element)).Text.Replace("Basic UDI-DI: ", "").Trim();
                         }
                         catch (NoSuchElementException)
                         {
                             // If the element is not found, as empty
                             Console.WriteLine("Basic UDI-DI not found ");
-                            basicUDI_DI_text = "NA";
+                            basicUDI_DI10_text = "NA";
 
 
                         }
@@ -1260,7 +1326,7 @@ namespace EudamedAutomation
                         Console.WriteLine("Custom made class III implantable: " + cliiiImplantable10_text);
 
 
-                     
+
 
                         ////Risk Class 
                         string riskClass10_element = "(//dt[contains(text(), 'Risk class')]/following-sibling::dd/div)[10]";
@@ -1280,12 +1346,12 @@ namespace EudamedAutomation
 
 
                         ////Name
-                        string name10_element = "(//dt[contains(text(), 'Name')]/following-sibling::dd/div)[10]";
+                        string name10_element = "(//mat-expansion-panel-header//mat-panel-title//div[contains(text(),'Device name:')])[10]";
                         string name10_text = "";
 
                         try
                         {
-                            name10_text = driver.FindElement(By.XPath(name10_element)).Text;
+                            name10_text = driver.FindElement(By.XPath(name10_element)).Text.Replace("Device name: ", "").Trim();
                         }
                         catch (NoSuchElementException)
                         {
@@ -1301,7 +1367,7 @@ namespace EudamedAutomation
                         // Group I
 
                         ////Device group identification
-                        string deviceGroupID_element = "(//dt[contains(text(), 'Device group identification')]/following-sibling::dd/div)[1]";
+                        string deviceGroupID_element = "(//h2[text()='Device groups']/following-sibling::mat-accordion/mat-expansion-panel/mat-expansion-panel-header)[1]";
                         string deviceGroupID_text = "";
 
                         try
@@ -1319,44 +1385,44 @@ namespace EudamedAutomation
 
 
 
-                        ////Risk Classes 
-                        string riskClasses_element = "(//dt[contains(text(), 'Risk classes')]/following-sibling::dd/div)[1]";
-                        string riskClasses_text = "";
-
-                        try
-                        {
-                            riskClasses_text = driver.FindElement(By.XPath(riskClasses_element)).Text;
-                        }
-                        catch (NoSuchElementException)
-                        {
-                            // If the element is not found, as empty
-                            Console.WriteLine("Risk classes not found ");
-                        }
-
-                        Console.WriteLine("Risk classes: " + riskClasses_text);
-
-
-                        ////Name
-                        string charClassI_element = "(//dt[contains(text(), 'Characteristic(s) of class I devices')]/following-sibling::dd//li)[1]";
-                        string charClassI_text = "";
-
-                        try
-                        {
-                            charClassI_text = driver.FindElement(By.XPath(charClassI_element)).Text;
-                        }
-                        catch (NoSuchElementException)
-                        {
-                            // If the element is not found, as empty
-                            Console.WriteLine("Characteristic(s) of class I devices not found ");
-                        }
-
-                        Console.WriteLine("Characteristic(s) of class I devices: " + charClassI_text);
-
+                        //////Risk Classes 
+                        //string riskClasses_element = "(//dt[contains(text(), 'Risk classes')]/following-sibling::dd/div)[1]";
+                        //string riskClasses_text = "";
+                        //
+                        //try
+                        //{
+                        //    riskClasses_text = driver.FindElement(By.XPath(riskClasses_element)).Text;
+                        //}
+                        //catch (NoSuchElementException)
+                        //{
+                        //    // If the element is not found, as empty
+                        //    Console.WriteLine("Risk classes not found ");
+                        //}
+                        //
+                        //Console.WriteLine("Risk classes: " + riskClasses_text);
+                        //
+                        //
+                        //////Name
+                        //string charClassI_element = "(//dt[contains(text(), 'Characteristic(s) of class I devices')]/following-sibling::dd//li)[1]";
+                        //string charClassI_text = "";
+                        //
+                        //try
+                        //{
+                        //    charClassI_text = driver.FindElement(By.XPath(charClassI_element)).Text;
+                        //}
+                        //catch (NoSuchElementException)
+                        //{
+                        //    // If the element is not found, as empty
+                        //    Console.WriteLine("Characteristic(s) of class I devices not found ");
+                        //}
+                        //
+                        //Console.WriteLine("Characteristic(s) of class I devices: " + charClassI_text);
+                        //
 
                         // Group II
 
                         ////Device group identification
-                        string deviceGroupID2_element = "(//dt[contains(text(), 'Device group identification')]/following-sibling::dd/div)[2]";
+                        string deviceGroupID2_element = "(//h2[text()='Device groups']/following-sibling::mat-accordion/mat-expansion-panel/mat-expansion-panel-header)[2]";
                         string deviceGroupID2_text = "";
 
                         try
@@ -1374,44 +1440,44 @@ namespace EudamedAutomation
 
 
 
-                        ////Risk Classes 
-                        string riskClasses2_element = "(//dt[contains(text(), 'Risk classes')]/following-sibling::dd/div)[2]";
-                        string riskClasses2_text = "";
-
-                        try
-                        {
-                            riskClasses2_text = driver.FindElement(By.XPath(riskClasses2_element)).Text;
-                        }
-                        catch (NoSuchElementException)
-                        {
-                            // If the element is not found, as empty
-                            Console.WriteLine("Risk classes not found ");
-                        }
-
-                        Console.WriteLine("Risk classes: " + riskClasses2_text);
-
-
-                        ////Name
-                        string charClassI2_element = "(//dt[contains(text(), 'Characteristic(s) of class I devices')]/following-sibling::dd//li)[2]";
-                        string charClassI2_text = "";
-
-                        try
-                        {
-                            charClassI2_text = driver.FindElement(By.XPath(charClassI2_element)).Text;
-                        }
-                        catch (NoSuchElementException)
-                        {
-                            // If the element is not found, as empty
-                            Console.WriteLine("Characteristic(s) of class I devices not found ");
-                        }
-
-                        Console.WriteLine("Characteristic(s) of class I devices: " + charClassI2_text);
-
-
+                        //////Risk Classes 
+                        //string riskClasses2_element = "(//dt[contains(text(), 'Risk classes')]/following-sibling::dd/div)[2]";
+                        //string riskClasses2_text = "";
+                        //
+                        //try
+                        //{
+                        //    riskClasses2_text = driver.FindElement(By.XPath(riskClasses2_element)).Text;
+                        //}
+                        //catch (NoSuchElementException)
+                        //{
+                        //    // If the element is not found, as empty
+                        //    Console.WriteLine("Risk classes not found ");
+                        //}
+                        //
+                        //Console.WriteLine("Risk classes: " + riskClasses2_text);
+                        //
+                        //
+                        //////Name
+                        //string charClassI2_element = "(//dt[contains(text(), 'Characteristic(s) of class I devices')]/following-sibling::dd//li)[2]";
+                        //string charClassI2_text = "";
+                        //
+                        //try
+                        //{
+                        //    charClassI2_text = driver.FindElement(By.XPath(charClassI2_element)).Text;
+                        //}
+                        //catch (NoSuchElementException)
+                        //{
+                        //    // If the element is not found, as empty
+                        //    Console.WriteLine("Characteristic(s) of class I devices not found ");
+                        //}
+                        //
+                        //Console.WriteLine("Characteristic(s) of class I devices: " + charClassI2_text);
+                        //
+                        //
                         // Group III
 
                         ////Device group identification
-                        string deviceGroupID3_element = "(//dt[contains(text(), 'Device group identification')]/following-sibling::dd/div)[3]";
+                        string deviceGroupID3_element = "(//h2[text()='Device groups']/following-sibling::mat-accordion/mat-expansion-panel/mat-expansion-panel-header)[3]";
                         string deviceGroupID3_text = "";
 
                         try
@@ -1429,45 +1495,45 @@ namespace EudamedAutomation
 
 
 
-                        ////Risk Classes 
-                        string riskClasses3_element = "(//dt[contains(text(), 'Risk classes')]/following-sibling::dd/div)[3]";
-                        string riskClasses3_text = "";
-
-                        try
-                        {
-                            riskClasses3_text = driver.FindElement(By.XPath(riskClasses3_element)).Text;
-                        }
-                        catch (NoSuchElementException)
-                        {
-                            // If the element is not found, as empty
-                            Console.WriteLine("Risk classes not found ");
-                        }
-
-                        Console.WriteLine("Risk classes: " + riskClasses3_text);
-
-
-                        ////Name
-                        string charClassI3_element = "(//dt[contains(text(), 'Characteristic(s) of class I devices')]/following-sibling::dd//li)[3]";
-                        string charClassI3_text = "";
-
-                        try
-                        {
-                            charClassI2_text = driver.FindElement(By.XPath(charClassI3_element)).Text;
-                        }
-                        catch (NoSuchElementException)
-                        {
-                            // If the element is not found, as empty
-                            Console.WriteLine("Characteristic(s) of class I devices not found ");
-                        }
-
-                        Console.WriteLine("Characteristic(s) of class I devices: " + charClassI3_text);
+                       // ////Risk Classes 
+                       // string riskClasses3_element = "(//dt[contains(text(), 'Risk classes')]/following-sibling::dd/div)[3]";
+                       // string riskClasses3_text = "";
+                       //
+                       // try
+                       // {
+                       //     riskClasses3_text = driver.FindElement(By.XPath(riskClasses3_element)).Text;
+                       // }
+                       // catch (NoSuchElementException)
+                       // {
+                       //     // If the element is not found, as empty
+                       //     Console.WriteLine("Risk classes not found ");
+                       // }
+                       //
+                       // Console.WriteLine("Risk classes: " + riskClasses3_text);
+                       //
+                       //
+                       // ////Name
+                       // string charClassI3_element = "(//dt[contains(text(), 'Characteristic(s) of class I devices')]/following-sibling::dd//li)[3]";
+                       // string charClassI3_text = "";
+                       //
+                       // try
+                       // {
+                       //     charClassI3_text = driver.FindElement(By.XPath(charClassI3_element)).Text;
+                       // }
+                       // catch (NoSuchElementException)
+                       // {
+                       //     // If the element is not found, as empty
+                       //     Console.WriteLine("Characteristic(s) of class I devices not found ");
+                       // }
+                       //
+                       // Console.WriteLine("Characteristic(s) of class I devices: " + charClassI3_text);
 
 
 
                         // Group IV
 
                         ////Device group identification
-                        string deviceGroupID4_element = "(//dt[contains(text(), 'Device group identification')]/following-sibling::dd/div)[4]";
+                        string deviceGroupID4_element = "(//h2[text()='Device groups']/following-sibling::mat-accordion/mat-expansion-panel/mat-expansion-panel-header)[4]";
                         string deviceGroupID4_text = "";
 
                         try
@@ -1484,46 +1550,46 @@ namespace EudamedAutomation
 
 
 
-
-                        ////Risk Classes 
-                        string riskClasses4_element = "(//dt[contains(text(), 'Risk classes')]/following-sibling::dd/div)[4]";
-                        string riskClasses4_text = "";
-
-                        try
-                        {
-                            riskClasses4_text = driver.FindElement(By.XPath(riskClasses4_element)).Text;
-                        }
-                        catch (NoSuchElementException)
-                        {
-                            // If the element is not found, as empty
-                            Console.WriteLine("Risk classes not found ");
-                        }
-
-                        Console.WriteLine("Risk classes: " + riskClasses4_text);
-
-
-                        ////Name
-                        string charClassI4_element = "(//dt[contains(text(), 'Characteristic(s) of class I devices')]/following-sibling::dd//li)[4]";
-                        string charClassI4_text = "";
-
-                        try
-                        {
-                            charClassI4_text = driver.FindElement(By.XPath(charClassI4_element)).Text;
-                        }
-                        catch (NoSuchElementException)
-                        {
-                            // If the element is not found, as empty
-                            Console.WriteLine("Characteristic(s) of class I devices not found ");
-                        }
-
-                        Console.WriteLine("Characteristic(s) of class I devices: " + charClassI4_text);
+                        //
+                        //////Risk Classes 
+                        //string riskClasses4_element = "(//dt[contains(text(), 'Risk classes')]/following-sibling::dd/div)[4]";
+                        //string riskClasses4_text = "";
+                        //
+                        //try
+                        //{
+                        //    riskClasses4_text = driver.FindElement(By.XPath(riskClasses4_element)).Text;
+                        //}
+                        //catch (NoSuchElementException)
+                        //{
+                        //    // If the element is not found, as empty
+                        //    Console.WriteLine("Risk classes not found ");
+                        //}
+                        //
+                        //Console.WriteLine("Risk classes: " + riskClasses4_text);
+                        //
+                        //
+                        //////Name
+                        //string charClassI4_element = "(//dt[contains(text(), 'Characteristic(s) of class I devices')]/following-sibling::dd//li)[4]";
+                        //string charClassI4_text = "";
+                        //
+                        //try
+                        //{
+                        //    charClassI4_text = driver.FindElement(By.XPath(charClassI4_element)).Text;
+                        //}
+                        //catch (NoSuchElementException)
+                        //{
+                        //    // If the element is not found, as empty
+                        //    Console.WriteLine("Characteristic(s) of class I devices not found ");
+                        //}
+                        //
+                        //Console.WriteLine("Characteristic(s) of class I devices: " + charClassI4_text);
 
 
 
                         // Group V
 
                         ////Device group identification
-                        string deviceGroupID5_element = "(//dt[contains(text(), 'Device group identification')]/following-sibling::dd/div)[5]";
+                        string deviceGroupID5_element = "(//h2[text()='Device groups']/following-sibling::mat-accordion/mat-expansion-panel/mat-expansion-panel-header)[5]";
                         string deviceGroupID5_text = "";
 
                         try
@@ -1541,41 +1607,132 @@ namespace EudamedAutomation
 
 
 
-                        ////Risk Classes 
-                        string riskClasses5_element = "(//dt[contains(text(), 'Risk classes')]/following-sibling::dd/div)[5]";
-                        string riskClasses5_text = "";
+                        //////Risk Classes 
+                        //string riskClasses5_element = "(//h2[text()='Device groups']/following-sibling::mat-accordion)[5]";
+                        //string riskClasses5_text = "";
+                        //
+                        //try
+                        //{
+                        //    riskClasses5_text = driver.FindElement(By.XPath(riskClasses5_element)).Text;
+                        //}
+                        //catch (NoSuchElementException)
+                        //{
+                        //    // If the element is not found, as empty
+                        //    Console.WriteLine("Risk classes not found ");
+                        //}
+                        //
+                        //Console.WriteLine("Risk classes: " + riskClasses5_text);
+                        //
+                        //
+                        //////Name
+                        //string charClassI5_element = "(//dt[contains(text(), 'Characteristic(s) of class I devices')]/following-sibling::dd//li)[5]";
+                        //string charClassI5_text = "";
+                        //
+                        //try
+                        //{
+                        //    charClassI5_text = driver.FindElement(By.XPath(charClassI5_element)).Text;
+                        //}
+                        //catch (NoSuchElementException)
+                        //{
+                        //    // If the element is not found, as empty
+                        //    Console.WriteLine("Characteristic(s) of class I devices not found ");
+                        //}
+                        //
+                        //Console.WriteLine("Characteristic(s) of class I devices: " + charClassI5_text);
+                        //
+
+                        // Group V
+
+                        ////Device group identification
+                        string deviceGroupID6_element = "(//h2[text()='Device groups']/following-sibling::mat-accordion/mat-expansion-panel/mat-expansion-panel-header)[6]";
+                        string deviceGroupID6_text = "";
 
                         try
                         {
-                            riskClasses5_text = driver.FindElement(By.XPath(riskClasses5_element)).Text;
+                            deviceGroupID6_text = driver.FindElement(By.XPath(deviceGroupID6_element)).Text;
                         }
                         catch (NoSuchElementException)
                         {
                             // If the element is not found, as empty
-                            Console.WriteLine("Risk classes not found ");
+                            Console.WriteLine("Device group identification not found ");
                         }
 
-                        Console.WriteLine("Risk classes: " + riskClasses5_text);
+                        Console.WriteLine("Device group identification: " + deviceGroupID6_text);
 
 
-                        ////Name
-                        string charClassI5_element = "(//dt[contains(text(), 'Characteristic(s) of class I devices')]/following-sibling::dd//li)[5]";
-                        string charClassI5_text = "";
+                        // Group V
+
+                        ////Device group identification
+                        string deviceGroupID7_element = "(//h2[text()='Device groups']/following-sibling::mat-accordion/mat-expansion-panel/mat-expansion-panel-header)[7]";
+                        string deviceGroupID7_text = "";
 
                         try
                         {
-                            charClassI5_text = driver.FindElement(By.XPath(charClassI5_element)).Text;
+                            deviceGroupID7_text = driver.FindElement(By.XPath(deviceGroupID7_element)).Text;
                         }
                         catch (NoSuchElementException)
                         {
                             // If the element is not found, as empty
-                            Console.WriteLine("Characteristic(s) of class I devices not found ");
+                            Console.WriteLine("Device group identification not found ");
                         }
 
-                        Console.WriteLine("Characteristic(s) of class I devices: " + charClassI5_text);
+                        Console.WriteLine("Device group identification: " + deviceGroupID7_text);
 
 
+                        // Group V
 
+                        ////Device group identification
+                        string deviceGroupID8_element = "(//h2[text()='Device groups']/following-sibling::mat-accordion/mat-expansion-panel/mat-expansion-panel-header)[8]";
+                        string deviceGroupID8_text = "";
+
+                        try
+                        {
+                            deviceGroupID8_text = driver.FindElement(By.XPath(deviceGroupID8_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Device group identification not found ");
+                        }
+
+                        Console.WriteLine("Device group identification: " + deviceGroupID8_text);
+
+
+                        // Group V
+
+                        ////Device group identification
+                        string deviceGroupID9_element = "(//h2[text()='Device groups']/following-sibling::mat-accordion/mat-expansion-panel/mat-expansion-panel-header)[9]";
+                        string deviceGroupID9_text = "";
+
+                        try
+                        {
+                            deviceGroupID9_text = driver.FindElement(By.XPath(deviceGroupID9_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Device group identification not found ");
+                        }
+
+                        Console.WriteLine("Device group identification: " + deviceGroupID9_text);
+
+                        // Group V
+
+                        ////Device group identification
+                        string deviceGroupID10_element = "(//h2[text()='Device groups']/following-sibling::mat-accordion/mat-expansion-panel/mat-expansion-panel-header)[10]";
+                        string deviceGroupID10_text = "";
+
+                        try
+                        {
+                            deviceGroupID10_text = driver.FindElement(By.XPath(deviceGroupID10_element)).Text;
+                        }
+                        catch (NoSuchElementException)
+                        {
+                            // If the element is not found, as empty
+                            Console.WriteLine("Device group identification not found ");
+                        }
+
+                        Console.WriteLine("Device group identification: " + deviceGroupID10_text);
 
 
                         //// Save extracted data to Excel
@@ -1611,76 +1768,81 @@ namespace EudamedAutomation
                         worksheet.Cell(excelRowIndex, 24).Value = ConLim_text;
 
                         //Devices
-                        worksheet.Cell(excelRowIndex, 25).Value = basicUDI_DI_text; 
-                        worksheet.Cell(excelRowIndex, 26).Value = cliiiImplantable_text;
-                        worksheet.Cell(excelRowIndex, 27).Value = riskClass_text;
-                        worksheet.Cell(excelRowIndex, 28).Value = name_text;
+                        worksheet.Cell(excelRowIndex, 25).Value = basicUDI_DI_text;
+                        //worksheet.Cell(excelRowIndex, 26).Value = cliiiImplantable_text;
+                        //worksheet.Cell(excelRowIndex, 27).Value = riskClass_text;
+                        worksheet.Cell(excelRowIndex, 26).Value = name_text;
 
-                        worksheet.Cell(excelRowIndex, 29).Value = basicUDI_DI2_text;
-                        worksheet.Cell(excelRowIndex, 30).Value = cliiiImplantable2_text;
-                        worksheet.Cell(excelRowIndex, 31).Value = riskClass2_text;
-                        worksheet.Cell(excelRowIndex, 32).Value = name2_text;
+                        worksheet.Cell(excelRowIndex, 27).Value = basicUDI_DI2_text;
+                        //worksheet.Cell(excelRowIndex, 30).Value = cliiiImplantable2_text;
+                        //worksheet.Cell(excelRowIndex, 31).Value = riskClass2_text;
+                        worksheet.Cell(excelRowIndex, 28).Value = name2_text;
 
-                        worksheet.Cell(excelRowIndex, 33).Value = basicUDI_DI3_text;
-                        worksheet.Cell(excelRowIndex, 34).Value = cliiiImplantable3_text;
-                        worksheet.Cell(excelRowIndex, 35).Value = riskClass3_text;
-                        worksheet.Cell(excelRowIndex, 36).Value = name3_text;
+                        worksheet.Cell(excelRowIndex, 29).Value = basicUDI_DI3_text;
+                        //worksheet.Cell(excelRowIndex, 34).Value = cliiiImplantable3_text;
+                        //worksheet.Cell(excelRowIndex, 35).Value = riskClass3_text;
+                        worksheet.Cell(excelRowIndex, 30).Value = name3_text;
 
-                        worksheet.Cell(excelRowIndex, 37).Value = basicUDI_DI4_text;
-                        worksheet.Cell(excelRowIndex, 38).Value = cliiiImplantable4_text;
-                        worksheet.Cell(excelRowIndex, 39).Value = riskClass4_text;
-                        worksheet.Cell(excelRowIndex, 40).Value = name4_text;
+                        worksheet.Cell(excelRowIndex, 31).Value = basicUDI_DI4_text;
+                        //worksheet.Cell(excelRowIndex, 38).Value = cliiiImplantable4_text;
+                        //worksheet.Cell(excelRowIndex, 39).Value = riskClass4_text;
+                        worksheet.Cell(excelRowIndex, 32).Value = name4_text;
 
-                        worksheet.Cell(excelRowIndex, 41).Value = basicUDI_DI5_text;
-                        worksheet.Cell(excelRowIndex, 42).Value = cliiiImplantable5_text;
-                        worksheet.Cell(excelRowIndex, 43).Value = riskClass5_text;
-                        worksheet.Cell(excelRowIndex, 44).Value = name5_text;
+                        worksheet.Cell(excelRowIndex, 33).Value = basicUDI_DI5_text;
+                        //worksheet.Cell(excelRowIndex, 42).Value = cliiiImplantable5_text;
+                        //worksheet.Cell(excelRowIndex, 43).Value = riskClass5_text;
+                        worksheet.Cell(excelRowIndex, 34).Value = name5_text;
 
-                        worksheet.Cell(excelRowIndex, 45).Value = basicUDI_DI6_text;
-                        worksheet.Cell(excelRowIndex, 46).Value = cliiiImplantable6_text;
-                        worksheet.Cell(excelRowIndex, 47).Value = riskClass6_text;
-                        worksheet.Cell(excelRowIndex, 48).Value = name6_text;
+                        worksheet.Cell(excelRowIndex, 35).Value = basicUDI_DI6_text;
+                        //worksheet.Cell(excelRowIndex, 46).Value = cliiiImplantable6_text;
+                        //worksheet.Cell(excelRowIndex, 47).Value = riskClass6_text;
+                        worksheet.Cell(excelRowIndex, 36).Value = name6_text;
 
-                        worksheet.Cell(excelRowIndex, 49).Value = basicUDI_DI7_text;
-                        worksheet.Cell(excelRowIndex, 50).Value = cliiiImplantable7_text;
-                        worksheet.Cell(excelRowIndex, 51).Value = riskClass7_text;
-                        worksheet.Cell(excelRowIndex, 52).Value = name7_text;
+                        worksheet.Cell(excelRowIndex, 37).Value = basicUDI_DI7_text;
+                        //worksheet.Cell(excelRowIndex, 50).Value = cliiiImplantable7_text;
+                        //worksheet.Cell(excelRowIndex, 51).Value = riskClass7_text;
+                        worksheet.Cell(excelRowIndex, 38).Value = name7_text;
 
-                        worksheet.Cell(excelRowIndex, 53).Value = basicUDI_DI8_text;
-                        worksheet.Cell(excelRowIndex, 54).Value = cliiiImplantable8_text;
-                        worksheet.Cell(excelRowIndex, 55).Value = riskClass8_text;
-                        worksheet.Cell(excelRowIndex, 56).Value = name8_text;
+                        worksheet.Cell(excelRowIndex, 39).Value = basicUDI_DI8_text;
+                        //worksheet.Cell(excelRowIndex, 54).Value = cliiiImplantable8_text;
+                        //worksheet.Cell(excelRowIndex, 55).Value = riskClass8_text;
+                        worksheet.Cell(excelRowIndex, 40).Value = name8_text;
 
-                        worksheet.Cell(excelRowIndex, 57).Value = basicUDI_DI9_text;
-                        worksheet.Cell(excelRowIndex, 58).Value = cliiiImplantable9_text;
-                        worksheet.Cell(excelRowIndex, 59).Value = riskClass9_text;
-                        worksheet.Cell(excelRowIndex, 60).Value = name9_text;
+                        worksheet.Cell(excelRowIndex, 41).Value = basicUDI_DI9_text;
+                        //worksheet.Cell(excelRowIndex, 58).Value = cliiiImplantable9_text;
+                        //worksheet.Cell(excelRowIndex, 59).Value = riskClass9_text;
+                        worksheet.Cell(excelRowIndex, 42).Value = name9_text;
 
-                        worksheet.Cell(excelRowIndex, 61).Value = basicUDI_DI10_text;
-                        worksheet.Cell(excelRowIndex, 62).Value = cliiiImplantable10_text;
-                        worksheet.Cell(excelRowIndex, 63).Value = riskClass10_text;
-                        worksheet.Cell(excelRowIndex, 64).Value = name10_text;
+                        worksheet.Cell(excelRowIndex, 43).Value = basicUDI_DI10_text;
+                        //worksheet.Cell(excelRowIndex, 62).Value = cliiiImplantable10_text;
+                        //worksheet.Cell(excelRowIndex, 63).Value = riskClass10_text;
+                        worksheet.Cell(excelRowIndex, 44).Value = name10_text;
 
                         //Device Groups
-                        worksheet.Cell(excelRowIndex, 65).Value = deviceGroupID_text;
-                        worksheet.Cell(excelRowIndex, 66).Value = riskClasses_text;
-                        worksheet.Cell(excelRowIndex, 67).Value = charClassI_text;
+                        worksheet.Cell(excelRowIndex, 45).Value = deviceGroupID_text;
+                        //worksheet.Cell(excelRowIndex, 66).Value = riskClasses_text;
+                        //worksheet.Cell(excelRowIndex, 67).Value = charClassI_text;
 
-                        worksheet.Cell(excelRowIndex, 68).Value = deviceGroupID2_text;
-                        worksheet.Cell(excelRowIndex, 69).Value = riskClasses2_text;
-                        worksheet.Cell(excelRowIndex, 70).Value = charClassI2_text;
+                        worksheet.Cell(excelRowIndex, 46).Value = deviceGroupID2_text;
+                        //worksheet.Cell(excelRowIndex, 69).Value = riskClasses2_text;
+                        //worksheet.Cell(excelRowIndex, 70).Value = charClassI2_text;
 
-                        worksheet.Cell(excelRowIndex, 71).Value = deviceGroupID3_text;
-                        worksheet.Cell(excelRowIndex, 72).Value = riskClasses3_text;
-                        worksheet.Cell(excelRowIndex, 73).Value = charClassI3_text;
+                        worksheet.Cell(excelRowIndex, 47).Value = deviceGroupID3_text;
+                       // worksheet.Cell(excelRowIndex, 72).Value = riskClasses3_text;
+                       // worksheet.Cell(excelRowIndex, 73).Value = charClassI3_text;
 
-                        worksheet.Cell(excelRowIndex, 74).Value = deviceGroupID4_text;
-                        worksheet.Cell(excelRowIndex, 75).Value = riskClasses4_text;
-                        worksheet.Cell(excelRowIndex, 76).Value = charClassI4_text;
+                        worksheet.Cell(excelRowIndex, 48).Value = deviceGroupID4_text;
+                        //worksheet.Cell(excelRowIndex, 75).Value = riskClasses4_text;
+                        //worksheet.Cell(excelRowIndex, 76).Value = charClassI4_text;
 
-                        worksheet.Cell(excelRowIndex, 77).Value = deviceGroupID5_text;
-                        worksheet.Cell(excelRowIndex, 78).Value = riskClasses5_text;
-                        worksheet.Cell(excelRowIndex, 79).Value = charClassI5_text;
+                        worksheet.Cell(excelRowIndex, 49).Value = deviceGroupID5_text;
+                        // worksheet.Cell(excelRowIndex, 78).Value = riskClasses5_text;
+                        // worksheet.Cell(excelRowIndex, 79).Value = charClassI5_text;
+                        worksheet.Cell(excelRowIndex, 50).Value = deviceGroupID6_text;
+                        worksheet.Cell(excelRowIndex, 51).Value = deviceGroupID7_text;
+                        worksheet.Cell(excelRowIndex, 52).Value = deviceGroupID8_text;
+                        worksheet.Cell(excelRowIndex, 53).Value = deviceGroupID9_text;
+                        worksheet.Cell(excelRowIndex, 54).Value = deviceGroupID10_text;
 
 
                         Console.WriteLine($"*****************************************************************Datasaved in row {excelRowIndex}");
